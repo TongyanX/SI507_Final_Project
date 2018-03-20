@@ -1,0 +1,4 @@
+secret_file.py
+.idea
+__pycache__
+*.pyc
