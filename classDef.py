@@ -54,7 +54,7 @@ class NationalUniversity(object):
     def __str__(self):
         return '{} is a {} national university located in {}, {}.'.format(self.name, self.type, self.city, self.state)
 
-    def request_gps_info(self, nation=True, state=True, city=True):
+    def request_gps_info(self, nation=False, state=False, city=False):
         """Request GPS Data Through Google Place API"""
         # Required url and parameters for requesting data
         base_url = 'https://maps.googleapis.com/maps/api/place/textsearch/json'
@@ -75,32 +75,45 @@ class NationalUniversity(object):
 
         # Return a dictionary containing latitude and longitude data in string form
         if result['status'] == 'OK':
-            location = result['results'][0]['geometry']['location']
+            if len(result['results']) == 1:
+                location = result['results'][0]['geometry']['location']
 
-            # Remove the mis-match locations returned by API which is not located in US
-            if (location['lat'] >= us_lat_range[0]) and (location['lat'] <= us_lat_range[1]) and (
-                        location['lng'] >= us_lon_range[0]) and (location['lng'] <= us_lon_range[1]):
-                return location
+                # Remove the mis-match locations returned by API which is not located in US
+                if (location['lat'] >= us_lat_range[0]) and (location['lat'] <= us_lat_range[1]) and (
+                            location['lng'] >= us_lon_range[0]) and (location['lng'] <= us_lon_range[1]):
+                    return location
+                else:
+                    location = {'lat': None, 'lng': None}
+
+            else:
+                if nation is False:
+                    location = self.request_gps_info(nation=True)
+                else:
+                    if state is False:
+                        location = self.request_gps_info(nation=True, state=True)
+                    else:
+                        if city is False:
+                            location = self.request_gps_info(nation=True, state=True, city=True)
+                        else:
+                            for each_result in result['result']:
+                                location = each_result['geometry']['location']
+                                if (location['lat'] >= us_lat_range[0]) and (location['lat'] <= us_lat_range[1]) and (
+                                        location['lng'] >= us_lon_range[0]) and (location['lng'] <= us_lon_range[1]):
+                                    return location
+                            location = {'lat': None, 'lng': None}
+
+            return location
 
         # Leave the data empty if it is not found or mis-found
         elif result['status'] == 'ZERO_RESULTS':
-            if nation is True:
-                location = self.request_gps_info(nation=False)
-            else:
-                if state is True:
-                    location = self.request_gps_info(nation=False, state=False)
-                else:
-                    if city is True:
-                        location = self.request_gps_info(nation=False, state=False, city=False)
-                    else:
-                        print('Failed to request data <GPS Location of {}> from Google Place API'.format(self.name))
-                        location = {'lat': None, 'lng': None}
+            print('Failed to request data <GPS Location of {}> from Google Place API'.format(self.name))
+            location = {'lat': None, 'lng': None}
             return location
 
         # Return a signal when exceed the request limit
         else:
             print('API request limit is exceeded.')
-            return 'EXCEED'
+            return None
 
     def get_gps_info(self):
         """Get GPS Data From API Or Cache File"""
@@ -115,10 +128,26 @@ class NationalUniversity(object):
         else:
             print('Request <GPS Location of {}> through Google Place API...'.format(self.name))
             location = self.request_gps_info()
-            if location != 'EXCEED':
+            if location is not None:
                 cache_file[self.name] = self.request_gps_info()
                 save_cache(cache_file, file_name)
             else:
                 return {'lat': None, 'lng': None}
 
         return cache_file[self.name]
+
+#
+# class StateGDP(object):
+#     """State GDP Class"""
+#     def __init__(self, area=None, data_dict=None):
+#         if data_dict is not None:
+#             for year in data_dict:
+#                 if year[0] == 'Y':
+#                     setattr(self, year.lower(), data_dict[year])
+#             self.area = data_dict.get('Area')
+#             if self.area is None:
+#                 self.area = area
+#
+#         else:
+#             self.area = area
+#

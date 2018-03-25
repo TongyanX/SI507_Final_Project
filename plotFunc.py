@@ -47,7 +47,7 @@ def scatter_gdp_univ():
     con = sqlite3.connect(db_name)
     cur = con.cursor()
 
-    statement = '''SELECT State, COUNT(ID), Y2016, SUM(Enrollment), SUM([Endowment(M)]) FROM National_University 
+    statement = '''SELECT State, StateName, COUNT(ID), Y2016, SUM([Endowment(M)]) FROM National_University 
                    JOIN State_Abbr
                        ON State = StateAbbr
                    JOIN GDP_State
@@ -56,26 +56,27 @@ def scatter_gdp_univ():
     cur.execute(statement)
     result_list = cur.fetchall()
 
-    data = [Scatter(y=[result[1] for result in result_list],
-                    x=[result[2] for result in result_list],
-                    text=[result[0] for result in result_list],
-                    marker=dict(sizeref=2. * max([result[3] for result in result_list]) / (100 ** 2),
-                                size=[result[3] for result in result_list],
+    data = [Scatter(x=[result[2] for result in result_list],
+                    y=[result[3] for result in result_list],
+                    text=[result[1] + ' (' + result[0] + ')<br>Total Endowment: $' + str(result[3]) + ' Million'
+                          for result in result_list],
+                    marker=dict(sizeref=2. * max([result[4] for result in result_list]) / (100 ** 2),
+                                size=[result[4] for result in result_list],
                                 color=[result[4] for result in result_list],
                                 colorscale='Viridis',
                                 sizemode='area',
                                 showscale=True,
-                                colorbar=dict(title='Endowment<br>(Million $)',
+                                colorbar=dict(title='Total<br>Endowment<br>(Million $)',
                                               titlefont=dict(size=15),
                                               tickfont=dict(size=15))),
                     mode='markers')]
-    layout = Layout(yaxis=dict(tickfont=dict(size=15),
+    layout = Layout(xaxis=dict(tickfont=dict(size=15),
                                title='National Univerity',
                                titlefont=dict(size=20)),
-                    xaxis=dict(tickfont=dict(size=15),
-                               title='GDP of State',
+                    yaxis=dict(tickfont=dict(size=15),
+                               title='GDP of State (Million $)',
                                titlefont=dict(size=20)),
-                    title='Relationship between GDP & National University<br>( Circlr Size - Total Enrollment )',
+                    title='Relationship between GDP & National University',
                     titlefont=dict(size=25))
     fig = Figure(data=data, layout=layout)
 
@@ -98,8 +99,7 @@ def scatter_enroll_salary():
                      x=[result[0] for result in result_list if result[2] == 'Private'],
                      text=[result[3] for result in result_list if result[2] == 'Private'],
                      marker=dict(size=12,
-                                 line=dict(width=2),
-                                 color='rgb(128,208,87)'),
+                                 color='#258039'),
                      mode='markers',
                      name='Private')
 
@@ -107,8 +107,7 @@ def scatter_enroll_salary():
                      x=[result[0] for result in result_list if result[2] == 'Public'],
                      text=[result[3] for result in result_list if result[2] == 'Public'],
                      marker=dict(size=12,
-                                 line=dict(width=2),
-                                 color='rgb(125,212,249)'),
+                                 color='#F5BE41'),
                      mode='markers',
                      name='Public')
 
@@ -240,6 +239,6 @@ def mapbox_univ(state_abbr):
         print('Account limit reached')
 
 
-scatter_enroll_salary()
+# scatter_enroll_salary()
 # scatter_gdp_univ()
-# mapbox_univ('MI')
+mapbox_univ('CA')

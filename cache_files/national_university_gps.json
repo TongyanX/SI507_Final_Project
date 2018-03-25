@@ -83,14 +83,6 @@
         "lat": 37.8719047,
         "lng": -122.2664146
     },
-    "University of California--Los Angeles": {
-        "lat": 34.0188247,
-        "lng": -118.2857791
-    },
-    "University of Southern California": {
-        "lat": 34.0188247,
-        "lng": -118.2857791
-    },
     "University of Virginia": {
         "lat": 38.0313208,
         "lng": -78.5021612
@@ -958,5 +950,297 @@
     "Indiana University of Pennsylvania": {
         "lat": 40.6170215,
         "lng": -79.16194569999999
+    },
+    "Jackson State University": {
+        "lat": 32.2987573,
+        "lng": -90.1848103
+    },
+    "Kennesaw State University": {
+        "lat": 34.0401219,
+        "lng": -84.585259
+    },
+    "Lamar University": {
+        "lat": 30.0419656,
+        "lng": -94.07662189999999
+    },
+    "Liberty University": {
+        "lat": 37.36024630000001,
+        "lng": -79.17249079999999
+    },
+    "Lindenwood University": {
+        "lat": 38.7757532,
+        "lng": -90.51697840000001
+    },
+    "Middle Tennessee State University": {
+        "lat": 35.8487329,
+        "lng": -86.3604826
+    },
+    "Morgan State University": {
+        "lat": 39.34599040000001,
+        "lng": -76.5986085
+    },
+    "North Carolina A&T; State University": {
+        "lat": 36.0785366,
+        "lng": -79.7731082
+    },
+    "Northern Arizona University": {
+        "lat": 35.1767158,
+        "lng": -111.6564191
+    },
+    "Northern Illinois University": {
+        "lat": 41.9294736,
+        "lng": -88.75036469999999
+    },
+    "Oakland University": {
+        "lat": 42.6719751,
+        "lng": -83.21497629999999
+    },
+    "Old Dominion University": {
+        "lat": 36.885863,
+        "lng": -76.30205
+    },
+    "Portland State University": {
+        "lat": 45.5112984,
+        "lng": -122.6821403
+    },
+    "Prairie View A&M; University": {
+        "lat": 30.0878281,
+        "lng": -95.98727699999999
+    },
+    "Regent University": {
+        "lat": 36.8005308,
+        "lng": -76.1968804
+    },
+    "Sam Houston State University": {
+        "lat": 30.7176573,
+        "lng": -95.57440749999999
+    },
+    "San Francisco State University": {
+        "lat": 37.722511,
+        "lng": -122.477666
+    },
+    "Spalding University": {
+        "lat": 38.2432788,
+        "lng": -85.75592859999999
+    },
+    "Tennessee State University": {
+        "lat": 36.1682372,
+        "lng": -86.8250923
+    },
+    "Tennessee Technological University": {
+        "lat": 36.17520349999999,
+        "lng": -85.5043163
+    },
+    "Texas A&M; University--Commerce": {
+        "lat": 33.1833656,
+        "lng": -95.92291829999999
+    },
+    "Texas A&M; University--Corpus Christi": {
+        "lat": 27.715474,
+        "lng": -97.32579899999999
+    },
+    "Texas A&M; University--Kingsville": {
+        "lat": 27.5234202,
+        "lng": -97.881622
+    },
+    "Texas Southern University": {
+        "lat": 29.7238954,
+        "lng": -95.36240339999999
+    },
+    "Texas State University": {
+        "lat": 29.8900712,
+        "lng": -97.9408072
+    },
+    "Texas Woman's University": {
+        "lat": 33.1750459,
+        "lng": -97.14190669999999
+    },
+    "Trinity International University": {
+        "lat": 42.1980124,
+        "lng": -87.88113349999999
+    },
+    "University of Akron": {
+        "lat": 41.076251,
+        "lng": -81.51072769999999
+    },
+    "University of Arkansas--Little Rock": {
+        "lat": 34.7454977,
+        "lng": -92.25907699999999
+    },
+    "University of Louisiana--Lafayette": {
+        "lat": 30.2118287,
+        "lng": -92.01490539999999
+    },
+    "University of Louisiana--Monroe": {
+        "lat": 32.5309807,
+        "lng": -92.068731
+    },
+    "University of Memphis": {
+        "lat": 35.1168684,
+        "lng": -89.93817729999999
+    },
+    "University of Missouri--St. Louis": {
+        "lat": 38.7079127,
+        "lng": -90.2973056
+    },
+    "University of Nebraska--Omaha": {
+        "lat": 41.2653105,
+        "lng": -95.94719189999999
+    },
+    "University of Nevada--Las Vegas": {
+        "lat": 36.1582358,
+        "lng": -115.1636821
+    },
+    "University of New Orleans": {
+        "lat": 29.935716,
+        "lng": -90.12037819999999
+    },
+    "University of North Carolina--Greensboro": {
+        "lat": 36.0693182,
+        "lng": -79.80717349999999
+    },
+    "University of Northern Colorado": {
+        "lat": 40.4033503,
+        "lng": -104.7044926
+    },
+    "University of North Texas": {
+        "lat": 33.2104756,
+        "lng": -97.1480462
+    },
+    "University of South Alabama": {
+        "lat": 30.6960686,
+        "lng": -88.1777721
+    },
+    "University of Southern Mississippi": {
+        "lat": 31.3268158,
+        "lng": -89.33772979999999
+    },
+    "University of Texas--Arlington": {
+        "lat": 32.72882360000001,
+        "lng": -97.1114908
+    },
+    "University of Texas--El Paso": {
+        "lat": 31.76192959999999,
+        "lng": -106.4848611
+    },
+    "University of Texas--Rio Grande Valley": {
+        "lat": 26.3065334,
+        "lng": -98.1763715
+    },
+    "University of Texas--San Antonio": {
+        "lat": 29.5819494,
+        "lng": -98.6234241
+    },
+    "University of the Cumberlands": {
+        "lat": 36.736059,
+        "lng": -84.1686764
+    },
+    "University of Toledo": {
+        "lat": 41.6607222,
+        "lng": -83.6131568
+    },
+    "University of West Florida": {
+        "lat": 30.551189,
+        "lng": -87.2206583
+    },
+    "University of West Georgia": {
+        "lat": 33.574149,
+        "lng": -85.103213
+    },
+    "University of Wisconsin--Milwaukee": {
+        "lat": 43.078002,
+        "lng": -87.88415499999999
+    },
+    "Valdosta State University": {
+        "lat": 30.8431,
+        "lng": -83.2861999
+    },
+    "Wichita State University": {
+        "lat": 37.7169212,
+        "lng": -97.2928622
+    },
+    "Wright State University": {
+        "lat": 39.788272,
+        "lng": -84.0547892
+    },
+    "Argosy University": {
+        "lat": 34.0664116,
+        "lng": -117.5783298
+    },
+    "Idaho State University": {
+        "lat": 42.865547,
+        "lng": -112.4314993
+    },
+    "Union Institute and University": {
+        "lat": 39.126963,
+        "lng": -84.500025
+    },
+    "University of Phoenix": {
+        "lat": 33.4533992,
+        "lng": -112.0636589
+    },
+    "Dallas Baptist University": {
+        "lat": null,
+        "lng": null
+    },
+    "University of Massachusetts--Dartmouth": {
+        "lat": null,
+        "lng": null
+    },
+    "Shenandoah University": {
+        "lat": null,
+        "lng": null
+    },
+    "Cardinal Stritch University": {
+        "lat": null,
+        "lng": null
+    },
+    "National Louis University": {
+        "lat": null,
+        "lng": null
+    },
+    "Trevecca Nazarene University": {
+        "lat": null,
+        "lng": null
+    },
+    "University of California--Los Angeles": {
+        "lat": 34.054276,
+        "lng": -118.255787
+    },
+    "University of Southern California": {
+        "lat": 34.0188247,
+        "lng": -118.2857791
+    },
+    "University of Maryland--Eastern Shore": {
+        "lat": null,
+        "lng": null
+    },
+    "Alliant International University": {
+        "lat": null,
+        "lng": null
+    },
+    "California Institute of Integral Studies": {
+        "lat": null,
+        "lng": null
+    },
+    "Capella University": {
+        "lat": null,
+        "lng": null
+    },
+    "Northcentral University": {
+        "lat": null,
+        "lng": null
+    },
+    "Trident University International": {
+        "lat": null,
+        "lng": null
+    },
+    "Walden University": {
+        "lat": null,
+        "lng": null
+    },
+    "Wilmington University": {
+        "lat": null,
+        "lng": null
     }
 }

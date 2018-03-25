@@ -9,7 +9,7 @@
         "endowment": 21700.0,
         "median_salary": 66700,
         "student_faculty": 5,
-        "female": "51.7%",
+        "female": 0.517,
         "tuition_in_state": 47140,
         "tuition_out_state": 47140,
         "enrollment": 8181
@@ -24,7 +24,7 @@
         "endowment": 35700.0,
         "median_salary": 63100,
         "student_faculty": 7,
-        "female": "53.2%",
+        "female": 0.532,
         "tuition_in_state": 48949,
         "tuition_out_state": 48949,
         "enrollment": 20324
@@ -39,7 +39,7 @@
         "endowment": 6100.0,
         "median_salary": 54400,
         "student_faculty": 5,
-        "female": "51.7%",
+        "female": 0.517,
         "tuition_in_state": 54825,
         "tuition_out_state": 54825,
         "enrollment": 13322
@@ -54,7 +54,7 @@
         "endowment": 25400.0,
         "median_salary": 60200,
         "student_faculty": 6,
-        "female": "50.9%",
+        "female": 0.509,
         "tuition_in_state": 51400,
         "tuition_out_state": 51400,
         "enrollment": 12458
@@ -69,7 +69,7 @@
         "endowment": 9000.0,
         "median_salary": 62200,
         "student_faculty": 6,
-        "female": "51.8%",
+        "female": 0.518,
         "tuition_in_state": 57208,
         "tuition_out_state": 57208,
         "enrollment": 25084
@@ -84,7 +84,7 @@
         "endowment": 13200.0,
         "median_salary": 76900,
         "student_faculty": 3,
-        "female": "53.8%",
+        "female": 0.5379999999999999,
         "tuition_in_state": 49892,
         "tuition_out_state": 49892,
         "enrollment": 11376
@@ -99,7 +99,7 @@
         "endowment": 22400.0,
         "median_salary": 70300,
         "student_faculty": 4,
-        "female": "51.5%",
+        "female": 0.515,
         "tuition_in_state": 49617,
         "tuition_out_state": 49617,
         "enrollment": 16914
@@ -114,7 +114,7 @@
         "endowment": 10700.0,
         "median_salary": 65000,
         "student_faculty": 6,
-        "female": "50.2%",
+        "female": 0.502,
         "tuition_in_state": 53534,
         "tuition_out_state": 53534,
         "enrollment": 21826
@@ -129,7 +129,7 @@
         "endowment": 6800.0,
         "median_salary": 62700,
         "student_faculty": 6,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 53744,
         "tuition_out_state": 53744,
         "enrollment": 15928
@@ -144,7 +144,7 @@
         "endowment": 2200.0,
         "median_salary": 78400,
         "student_faculty": 3,
-        "female": "59.1%",
+        "female": 0.591,
         "tuition_in_state": 49908,
         "tuition_out_state": 49908,
         "enrollment": 2240
@@ -159,7 +159,7 @@
         "endowment": 4500.0,
         "median_salary": 61700,
         "student_faculty": 7,
-        "female": "50%",
+        "female": 0.5,
         "tuition_in_state": 52950,
         "tuition_out_state": 52950,
         "enrollment": 6409
@@ -174,7 +174,7 @@
         "endowment": 3300.0,
         "median_salary": 61600,
         "student_faculty": 7,
-        "female": "50.2%",
+        "female": 0.502,
         "tuition_in_state": 52170,
         "tuition_out_state": 52170,
         "enrollment": 23992
@@ -189,7 +189,7 @@
         "endowment": 7500.0,
         "median_salary": 56400,
         "student_faculty": 7,
-        "female": "50.1%",
+        "female": 0.501,
         "tuition_in_state": 52678,
         "tuition_out_state": 52678,
         "enrollment": 21208
@@ -204,7 +204,7 @@
         "endowment": 3000.0,
         "median_salary": 57500,
         "student_faculty": 7,
-        "female": "52.2%",
+        "female": 0.522,
         "tuition_in_state": 53419,
         "tuition_out_state": 53419,
         "enrollment": 9781
@@ -219,7 +219,7 @@
         "endowment": 5800.0,
         "median_salary": 63100,
         "student_faculty": 9,
-        "female": "52%",
+        "female": 0.52,
         "tuition_in_state": 52853,
         "tuition_out_state": 52853,
         "enrollment": 22319
@@ -234,7 +234,7 @@
         "endowment": 5400.0,
         "median_salary": 63300,
         "student_faculty": 6,
-        "female": "52.5%",
+        "female": 0.525,
         "tuition_in_state": 45608,
         "tuition_out_state": 45608,
         "enrollment": 6855
@@ -249,7 +249,7 @@
         "endowment": 3800.0,
         "median_salary": 58000,
         "student_faculty": 8,
-        "female": "50.5%",
+        "female": 0.505,
         "tuition_in_state": 47664,
         "tuition_out_state": 47664,
         "enrollment": 12587
@@ -264,7 +264,7 @@
         "endowment": 8700.0,
         "median_salary": 60400,
         "student_faculty": 10,
-        "female": "52.8%",
+        "female": 0.528,
         "tuition_in_state": 51505,
         "tuition_out_state": 51505,
         "enrollment": 12393
@@ -279,7 +279,7 @@
         "endowment": 6500.0,
         "median_salary": 57300,
         "student_faculty": 8,
-        "female": "52.8%",
+        "female": 0.528,
         "tuition_in_state": 51533,
         "tuition_out_state": 51533,
         "enrollment": 15032
@@ -294,7 +294,7 @@
         "endowment": 1500.0,
         "median_salary": 57800,
         "student_faculty": 11,
-        "female": "55.8%",
+        "female": 0.5579999999999999,
         "tuition_in_state": 52300,
         "tuition_out_state": 52300,
         "enrollment": 18525
@@ -309,7 +309,7 @@
         "endowment": 6900.0,
         "median_salary": 54600,
         "student_faculty": 9,
-        "female": "58.9%",
+        "female": 0.589,
         "tuition_in_state": 49392,
         "tuition_out_state": 49392,
         "enrollment": 14077
@@ -324,7 +324,7 @@
         "endowment": 4100.0,
         "median_salary": 61800,
         "student_faculty": 18,
-        "female": "52.1%",
+        "female": 0.521,
         "tuition_in_state": 14098,
         "tuition_out_state": 42112,
         "enrollment": 40174
@@ -339,7 +339,7 @@
         "endowment": 3900.0,
         "median_salary": 55000,
         "student_faculty": 17,
-        "female": "56.7%",
+        "female": 0.5670000000000001,
         "tuition_in_state": 13256,
         "tuition_out_state": 41270,
         "enrollment": 44947
@@ -354,7 +354,7 @@
         "endowment": 4600.0,
         "median_salary": 56700,
         "student_faculty": 8,
-        "female": "51.8%",
+        "female": 0.518,
         "tuition_in_state": 54259,
         "tuition_out_state": 54259,
         "enrollment": 43871
@@ -369,7 +369,7 @@
         "endowment": 1300.0,
         "median_salary": 69700,
         "student_faculty": 13,
-        "female": "52.8%",
+        "female": 0.528,
         "tuition_in_state": 53910,
         "tuition_out_state": 53910,
         "enrollment": 13961
@@ -384,7 +384,7 @@
         "endowment": 5800.0,
         "median_salary": 57000,
         "student_faculty": 15,
-        "female": "54.4%",
+        "female": 0.544,
         "tuition_in_state": 16146,
         "tuition_out_state": 46975,
         "enrollment": 23898
@@ -399,7 +399,7 @@
         "endowment": 1100.0,
         "median_salary": 52800,
         "student_faculty": 10,
-        "female": "52.8%",
+        "female": 0.528,
         "tuition_in_state": 51400,
         "tuition_out_state": 51400,
         "enrollment": 7968
@@ -414,7 +414,7 @@
         "endowment": 9600.0,
         "median_salary": 58400,
         "student_faculty": 15,
-        "female": "50.2%",
+        "female": 0.502,
         "tuition_in_state": 14826,
         "tuition_out_state": 47476,
         "enrollment": 44718
@@ -429,7 +429,7 @@
         "endowment": 1600.0,
         "median_salary": 56700,
         "student_faculty": 8,
-        "female": "50.3%",
+        "female": 0.503,
         "tuition_in_state": 54318,
         "tuition_out_state": 54318,
         "enrollment": 11489
@@ -444,7 +444,7 @@
         "endowment": 3600.0,
         "median_salary": 54400,
         "student_faculty": 10,
-        "female": "57.2%",
+        "female": 0.5720000000000001,
         "tuition_in_state": 50464,
         "tuition_out_state": 50464,
         "enrollment": 50550
@@ -459,7 +459,7 @@
         "endowment": 2900.0,
         "median_salary": 47600,
         "student_faculty": 13,
-        "female": "58.5%",
+        "female": 0.585,
         "tuition_in_state": 9005,
         "tuition_out_state": 34588,
         "enrollment": 29469
@@ -474,7 +474,7 @@
         "endowment": 2100.0,
         "median_salary": 56100,
         "student_faculty": 12,
-        "female": "53.7%",
+        "female": 0.537,
         "tuition_in_state": 53346,
         "tuition_out_state": 53346,
         "enrollment": 13851
@@ -489,7 +489,7 @@
         "endowment": 803.7,
         "median_salary": 50500,
         "student_faculty": 12,
-        "female": "57.6%",
+        "female": 0.5760000000000001,
         "tuition_in_state": 20287,
         "tuition_out_state": 43099,
         "enrollment": 8587
@@ -504,7 +504,7 @@
         "endowment": 866.8,
         "median_salary": 50600,
         "student_faculty": 10,
-        "female": "57.7%",
+        "female": 0.5770000000000001,
         "tuition_in_state": 53582,
         "tuition_out_state": 53582,
         "enrollment": 5729
@@ -519,7 +519,7 @@
         "endowment": 1800.0,
         "median_salary": 65700,
         "student_faculty": 20,
-        "female": "63.3%",
+        "female": 0.633,
         "tuition_in_state": 12418,
         "tuition_out_state": 33014,
         "enrollment": 26839
@@ -534,7 +534,7 @@
         "endowment": 1900.0,
         "median_salary": 54800,
         "student_faculty": 10,
-        "female": "50.5%",
+        "female": 0.505,
         "tuition_in_state": 52020,
         "tuition_out_state": 52020,
         "enrollment": 11209
@@ -549,7 +549,7 @@
         "endowment": 1700.0,
         "median_salary": 52900,
         "student_faculty": 10,
-        "female": "61.4%",
+        "female": 0.614,
         "tuition_in_state": 52082,
         "tuition_out_state": 52082,
         "enrollment": 32695
@@ -564,7 +564,7 @@
         "endowment": 1700.0,
         "median_salary": 61300,
         "student_faculty": 11,
-        "female": "55.1%",
+        "female": 0.551,
         "tuition_in_state": 47500,
         "tuition_out_state": 47500,
         "enrollment": 11664
@@ -579,7 +579,7 @@
         "endowment": 429.2,
         "median_salary": 52200,
         "student_faculty": 17,
-        "female": "53.4%",
+        "female": 0.534,
         "tuition_in_state": 14409,
         "tuition_out_state": 42423,
         "enrollment": 24346
@@ -594,7 +594,7 @@
         "endowment": 702.0,
         "median_salary": 56600,
         "student_faculty": 14,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 49497,
         "tuition_out_state": 49497,
         "enrollment": 20381
@@ -609,7 +609,7 @@
         "endowment": 1200.0,
         "median_salary": 49800,
         "student_faculty": 8,
-        "female": "58.2%",
+        "female": 0.5820000000000001,
         "tuition_in_state": 52960,
         "tuition_out_state": 52960,
         "enrollment": 11034
@@ -624,7 +624,7 @@
         "endowment": 632.0,
         "median_salary": 66000,
         "student_faculty": 13,
-        "female": "68.5%",
+        "female": 0.685,
         "tuition_in_state": 52305,
         "tuition_out_state": 52305,
         "enrollment": 7442
@@ -639,7 +639,7 @@
         "endowment": 625.9,
         "median_salary": 52100,
         "student_faculty": 18,
-        "female": "53.1%",
+        "female": 0.531,
         "tuition_in_state": 15516,
         "tuition_out_state": 43530,
         "enrollment": 32754
@@ -654,7 +654,7 @@
         "endowment": 1300.0,
         "median_salary": 55000,
         "student_faculty": 19,
-        "female": "51.9%",
+        "female": 0.519,
         "tuition_in_state": 16183,
         "tuition_out_state": 44197,
         "enrollment": 34979
@@ -669,7 +669,7 @@
         "endowment": 1500.0,
         "median_salary": 51000,
         "student_faculty": 20,
-        "female": "55.3%",
+        "female": 0.5529999999999999,
         "tuition_in_state": 6381,
         "tuition_out_state": 28658,
         "enrollment": 52367
@@ -684,7 +684,7 @@
         "endowment": 1200.0,
         "median_salary": 63700,
         "student_faculty": 9,
-        "female": "56.2%",
+        "female": 0.562,
         "tuition_in_state": 50740,
         "tuition_out_state": 50740,
         "enrollment": 7059
@@ -699,7 +699,7 @@
         "endowment": 781.3,
         "median_salary": 52000,
         "student_faculty": 14,
-        "female": "58.8%",
+        "female": 0.588,
         "tuition_in_state": 51992,
         "tuition_out_state": 51992,
         "enrollment": 7826
@@ -714,7 +714,7 @@
         "endowment": 1100.0,
         "median_salary": 54300,
         "student_faculty": 20,
-        "female": "59.3%",
+        "female": 0.593,
         "tuition_in_state": 14382,
         "tuition_out_state": 42396,
         "enrollment": 36441
@@ -729,7 +729,7 @@
         "endowment": 844.6,
         "median_salary": 51400,
         "student_faculty": 12,
-        "female": "52.3%",
+        "female": 0.523,
         "tuition_in_state": 48484,
         "tuition_out_state": 48484,
         "enrollment": 16801
@@ -744,7 +744,7 @@
         "endowment": 3100.0,
         "median_salary": 51700,
         "student_faculty": 18,
-        "female": "50.9%",
+        "female": 0.509,
         "tuition_in_state": 10533,
         "tuition_out_state": 34782,
         "enrollment": 43336
@@ -759,7 +759,7 @@
         "endowment": 563.9,
         "median_salary": 60300,
         "student_faculty": 12,
-        "female": "53.7%",
+        "female": 0.537,
         "tuition_in_state": 51434,
         "tuition_out_state": 51434,
         "enrollment": 10842
@@ -774,7 +774,7 @@
         "endowment": 1800.0,
         "median_salary": 54600,
         "student_faculty": 16,
-        "female": "53.4%",
+        "female": 0.534,
         "tuition_in_state": 18436,
         "tuition_out_state": 33664,
         "enrollment": 47789
@@ -789,7 +789,7 @@
         "endowment": 1600.0,
         "median_salary": 57300,
         "student_faculty": 20,
-        "female": "54.8%",
+        "female": 0.5479999999999999,
         "tuition_in_state": 15868,
         "tuition_out_state": 31988,
         "enrollment": 46951
@@ -804,7 +804,7 @@
         "endowment": 3700.0,
         "median_salary": 50600,
         "student_faculty": 19,
-        "female": "52.1%",
+        "female": 0.521,
         "tuition_in_state": 10591,
         "tuition_out_state": 29659,
         "enrollment": 59482
@@ -819,7 +819,7 @@
         "endowment": 1000.0,
         "median_salary": 47500,
         "student_faculty": 18,
-        "female": "56.8%",
+        "female": 0.568,
         "tuition_in_state": 11818,
         "tuition_out_state": 30392,
         "enrollment": 36574
@@ -834,7 +834,7 @@
         "endowment": 1600.0,
         "median_salary": 51800,
         "student_faculty": 13,
-        "female": "57.1%",
+        "female": 0.5710000000000001,
         "tuition_in_state": 53518,
         "tuition_out_state": 53518,
         "enrollment": 27159
@@ -849,7 +849,7 @@
         "endowment": 2200.0,
         "median_salary": 57500,
         "student_faculty": 12,
-        "female": "57.7%",
+        "female": 0.5770000000000001,
         "tuition_in_state": 10002,
         "tuition_out_state": 28804,
         "enrollment": 40451
@@ -864,7 +864,7 @@
         "endowment": 358.6,
         "median_salary": 54400,
         "student_faculty": 16,
-        "female": "50.1%",
+        "female": 0.501,
         "tuition_in_state": 14880,
         "tuition_out_state": 36948,
         "enrollment": 27721
@@ -879,7 +879,7 @@
         "endowment": 3400.0,
         "median_salary": 54400,
         "student_faculty": 18,
-        "female": "52.6%",
+        "female": 0.526,
         "tuition_in_state": 10136,
         "tuition_out_state": 35766,
         "enrollment": 51331
@@ -894,7 +894,7 @@
         "endowment": 3000.0,
         "median_salary": 54400,
         "student_faculty": 17,
-        "female": "52.3%",
+        "female": 0.523,
         "tuition_in_state": 10974,
         "tuition_out_state": 35538,
         "enrollment": 45591
@@ -909,7 +909,7 @@
         "endowment": 1600.0,
         "median_salary": 54100,
         "student_faculty": 21,
-        "female": "52%",
+        "female": 0.52,
         "tuition_in_state": 5460,
         "tuition_out_state": 5460,
         "enrollment": 34240
@@ -924,7 +924,7 @@
         "endowment": 614.9,
         "median_salary": 51300,
         "student_faculty": 14,
-        "female": "57.2%",
+        "female": 0.5720000000000001,
         "tuition_in_state": 50601,
         "tuition_out_state": 50601,
         "enrollment": 15582
@@ -939,7 +939,7 @@
         "endowment": 1400.0,
         "median_salary": 52600,
         "student_faculty": 11,
-        "female": "50%",
+        "female": 0.5,
         "tuition_in_state": 52498,
         "tuition_out_state": 52498,
         "enrollment": 11739
@@ -954,7 +954,7 @@
         "endowment": 1200.0,
         "median_salary": 51400,
         "student_faculty": 15,
-        "female": "54.5%",
+        "female": 0.545,
         "tuition_in_state": 46755,
         "tuition_out_state": 46755,
         "enrollment": 21970
@@ -969,7 +969,7 @@
         "endowment": 493.3,
         "median_salary": 56400,
         "student_faculty": 17,
-        "female": "53.3%",
+        "female": 0.5329999999999999,
         "tuition_in_state": 10399,
         "tuition_out_state": 33606,
         "enrollment": 39083
@@ -984,7 +984,7 @@
         "endowment": 466.3,
         "median_salary": 67300,
         "student_faculty": 13,
-        "female": "66.3%",
+        "female": 0.6629999999999999,
         "tuition_in_state": 48628,
         "tuition_out_state": 48628,
         "enrollment": 6642
@@ -999,7 +999,7 @@
         "endowment": 621.3,
         "median_salary": 53600,
         "student_faculty": 18,
-        "female": "52.3%",
+        "female": 0.523,
         "tuition_in_state": 14712,
         "tuition_out_state": 35654,
         "enrollment": 23406
@@ -1014,7 +1014,7 @@
         "endowment": 3500.0,
         "median_salary": 50600,
         "student_faculty": 15,
-        "female": "51.6%",
+        "female": 0.516,
         "tuition_in_state": 19080,
         "tuition_out_state": 30642,
         "enrollment": 28664
@@ -1029,7 +1029,7 @@
         "endowment": 558.1,
         "median_salary": 47400,
         "student_faculty": 12,
-        "female": "63.3%",
+        "female": 0.633,
         "tuition_in_state": 46615,
         "tuition_out_state": 46615,
         "enrollment": 13347
@@ -1044,7 +1044,7 @@
         "endowment": 865.9,
         "median_salary": 53300,
         "student_faculty": 13,
-        "female": "50.3%",
+        "female": 0.503,
         "tuition_in_state": 14372,
         "tuition_out_state": 30023,
         "enrollment": 50146
@@ -1059,7 +1059,7 @@
         "endowment": 166.0,
         "median_salary": 67000,
         "student_faculty": 10,
-        "female": "70.1%",
+        "female": 0.701,
         "tuition_in_state": 50554,
         "tuition_out_state": 50554,
         "enrollment": 6523
@@ -1074,7 +1074,7 @@
         "endowment": 9900.0,
         "median_salary": 55800,
         "student_faculty": 21,
-        "female": "51.4%",
+        "female": 0.514,
         "tuition_in_state": 10030,
         "tuition_out_state": 30208,
         "enrollment": 65302
@@ -1089,7 +1089,7 @@
         "endowment": 3100.0,
         "median_salary": 51600,
         "student_faculty": 17,
-        "female": "51.7%",
+        "female": 0.517,
         "tuition_in_state": 14417,
         "tuition_out_state": 26603,
         "enrollment": 51580
@@ -1104,7 +1104,7 @@
         "endowment": 835.8,
         "median_salary": 57900,
         "student_faculty": 14,
-        "female": "57.3%",
+        "female": 0.573,
         "tuition_in_state": 12852,
         "tuition_out_state": 29371,
         "enrollment": 33170
@@ -1119,7 +1119,7 @@
         "endowment": 1200.0,
         "median_salary": 50700,
         "student_faculty": 15,
-        "female": "57.9%",
+        "female": 0.579,
         "tuition_in_state": 43790,
         "tuition_out_state": 43790,
         "enrollment": 16959
@@ -1134,7 +1134,7 @@
         "endowment": 212.3,
         "median_salary": 68000,
         "student_faculty": 15,
-        "female": "72%",
+        "female": 0.72,
         "tuition_in_state": 18386,
         "tuition_out_state": 37436,
         "enrollment": 5876
@@ -1149,7 +1149,7 @@
         "endowment": 287.2,
         "median_salary": 51700,
         "student_faculty": 18,
-        "female": "51.2%",
+        "female": 0.512,
         "tuition_in_state": 15596,
         "tuition_out_state": 33662,
         "enrollment": 30037
@@ -1164,7 +1164,7 @@
         "endowment": 445.8,
         "median_salary": 51400,
         "student_faculty": 17,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 14578,
         "tuition_out_state": 32768,
         "enrollment": 19697
@@ -1179,7 +1179,7 @@
         "endowment": 1400.0,
         "median_salary": 50700,
         "student_faculty": 13,
-        "female": "60.3%",
+        "female": 0.603,
         "tuition_in_state": 44760,
         "tuition_out_state": 44760,
         "enrollment": 10394
@@ -1194,7 +1194,7 @@
         "endowment": 1300.0,
         "median_salary": 48100,
         "student_faculty": 16,
-        "female": "52.4%",
+        "female": 0.524,
         "tuition_in_state": 8575,
         "tuition_out_state": 28813,
         "enrollment": 32011
@@ -1209,7 +1209,7 @@
         "endowment": 369.1,
         "median_salary": 43600,
         "student_faculty": 9,
-        "female": "61%",
+        "female": 0.61,
         "tuition_in_state": 44400,
         "tuition_out_state": 44400,
         "enrollment": 3298
@@ -1224,7 +1224,7 @@
         "endowment": 584.5,
         "median_salary": 44800,
         "student_faculty": 24,
-        "female": "55.4%",
+        "female": 0.5539999999999999,
         "tuition_in_state": 6507,
         "tuition_out_state": 21673,
         "enrollment": 41368
@@ -1239,7 +1239,7 @@
         "endowment": 2600.0,
         "median_salary": 50600,
         "student_faculty": 17,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 14460,
         "tuition_out_state": 39405,
         "enrollment": 50344
@@ -1254,7 +1254,7 @@
         "endowment": 998.6,
         "median_salary": 52800,
         "student_faculty": 13,
-        "female": "54.9%",
+        "female": 0.5489999999999999,
         "tuition_in_state": 9058,
         "tuition_out_state": 27406,
         "enrollment": 33755
@@ -1269,7 +1269,7 @@
         "endowment": 244.4,
         "median_salary": 49900,
         "student_faculty": 18,
-        "female": "50.9%",
+        "female": 0.509,
         "tuition_in_state": 14028,
         "tuition_out_state": 42042,
         "enrollment": 18783
@@ -1284,7 +1284,7 @@
         "endowment": 1300.0,
         "median_salary": 52300,
         "student_faculty": 15,
-        "female": "57.7%",
+        "female": 0.5770000000000001,
         "tuition_in_state": 12830,
         "tuition_out_state": 32250,
         "enrollment": 22168
@@ -1299,7 +1299,7 @@
         "endowment": 93.4,
         "median_salary": 54400,
         "student_faculty": 19,
-        "female": "51.5%",
+        "female": 0.515,
         "tuition_in_state": 9523,
         "tuition_out_state": 24403,
         "enrollment": 17292
@@ -1314,7 +1314,7 @@
         "endowment": 607.4,
         "median_salary": 48900,
         "student_faculty": 11,
-        "female": "53.5%",
+        "female": 0.535,
         "tuition_in_state": 48669,
         "tuition_out_state": 48669,
         "enrollment": 11614
@@ -1329,7 +1329,7 @@
         "endowment": 975.6,
         "median_salary": 52800,
         "student_faculty": 11,
-        "female": "56.8%",
+        "female": 0.568,
         "tuition_in_state": 39502,
         "tuition_out_state": 39502,
         "enrollment": 4563
@@ -1344,7 +1344,7 @@
         "endowment": 991.1,
         "median_salary": 47900,
         "student_faculty": 17,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 10533,
         "tuition_out_state": 34845,
         "enrollment": 49695
@@ -1359,7 +1359,7 @@
         "endowment": 550.1,
         "median_salary": 52800,
         "student_faculty": 14,
-        "female": "54.1%",
+        "female": 0.541,
         "tuition_in_state": 39900,
         "tuition_out_state": 39900,
         "enrollment": 11294
@@ -1374,7 +1374,7 @@
         "endowment": 514.2,
         "median_salary": 51500,
         "student_faculty": 17,
-        "female": "55.8%",
+        "female": 0.5579999999999999,
         "tuition_in_state": 11531,
         "tuition_out_state": 35079,
         "enrollment": 33771
@@ -1389,7 +1389,7 @@
         "endowment": 449.8,
         "median_salary": 51300,
         "student_faculty": 14,
-        "female": "54.1%",
+        "female": 0.541,
         "tuition_in_state": 47708,
         "tuition_out_state": 47708,
         "enrollment": 8508
@@ -1404,7 +1404,7 @@
         "endowment": 650.3,
         "median_salary": 58000,
         "student_faculty": 10,
-        "female": "51.3%",
+        "female": 0.513,
         "tuition_in_state": 52002,
         "tuition_out_state": 52002,
         "enrollment": 21975
@@ -1419,7 +1419,7 @@
         "endowment": 1100.0,
         "median_salary": 49200,
         "student_faculty": 9,
-        "female": "59.3%",
+        "female": 0.593,
         "tuition_in_state": 42166,
         "tuition_out_state": 42166,
         "enrollment": 12280
@@ -1434,7 +1434,7 @@
         "endowment": 478.2,
         "median_salary": null,
         "student_faculty": 8,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 42000,
         "tuition_out_state": 42000,
         "enrollment": 6170
@@ -1449,7 +1449,7 @@
         "endowment": 750.9,
         "median_salary": 57600,
         "student_faculty": 12,
-        "female": "65.4%",
+        "female": 0.654,
         "tuition_in_state": 40068,
         "tuition_out_state": 40068,
         "enrollment": 15353
@@ -1464,7 +1464,7 @@
         "endowment": 219.7,
         "median_salary": 52600,
         "student_faculty": 17,
-        "female": "53.8%",
+        "female": 0.5379999999999999,
         "tuition_in_state": 9257,
         "tuition_out_state": 26297,
         "enrollment": 25734
@@ -1479,7 +1479,7 @@
         "endowment": 27.6,
         "median_salary": null,
         "student_faculty": 13,
-        "female": "53.4%",
+        "female": 0.534,
         "tuition_in_state": 8240,
         "tuition_out_state": 18090,
         "enrollment": 2202
@@ -1494,7 +1494,7 @@
         "endowment": 601.0,
         "median_salary": 49100,
         "student_faculty": 13,
-        "female": "56.9%",
+        "female": 0.569,
         "tuition_in_state": 9770,
         "tuition_out_state": 26270,
         "enrollment": 30183
@@ -1509,7 +1509,7 @@
         "endowment": 1000.0,
         "median_salary": 50300,
         "student_faculty": 17,
-        "female": "50.3%",
+        "female": 0.503,
         "tuition_in_state": 9062,
         "tuition_out_state": 24443,
         "enrollment": 31176
@@ -1524,7 +1524,7 @@
         "endowment": 408.9,
         "median_salary": 47700,
         "student_faculty": 17,
-        "female": "56.9%",
+        "female": 0.569,
         "tuition_in_state": 17740,
         "tuition_out_state": 41356,
         "enrollment": 13105
@@ -1539,7 +1539,7 @@
         "endowment": 657.6,
         "median_salary": 49500,
         "student_faculty": 19,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 10968,
         "tuition_out_state": 29640,
         "enrollment": 28290
@@ -1554,7 +1554,7 @@
         "endowment": 224.2,
         "median_salary": 60000,
         "student_faculty": 13,
-        "female": "70.3%",
+        "female": 0.703,
         "tuition_in_state": 45864,
         "tuition_out_state": 45864,
         "enrollment": 7730
@@ -1569,7 +1569,7 @@
         "endowment": 533.6,
         "median_salary": 47100,
         "student_faculty": 14,
-        "female": "66.2%",
+        "female": 0.662,
         "tuition_in_state": 42828,
         "tuition_out_state": 42828,
         "enrollment": 16422
@@ -1584,7 +1584,7 @@
         "endowment": 330.1,
         "median_salary": 48500,
         "student_faculty": 18,
-        "female": "54.5%",
+        "female": 0.545,
         "tuition_in_state": 18067,
         "tuition_out_state": 32637,
         "enrollment": 15236
@@ -1599,7 +1599,7 @@
         "endowment": 758.7,
         "median_salary": 45300,
         "student_faculty": 17,
-        "female": "53.5%",
+        "female": 0.535,
         "tuition_in_state": 11571,
         "tuition_out_state": 34611,
         "enrollment": 23546
@@ -1614,7 +1614,7 @@
         "endowment": 527.4,
         "median_salary": 44800,
         "student_faculty": 18,
-        "female": "53.6%",
+        "female": 0.536,
         "tuition_in_state": 12262,
         "tuition_out_state": 32362,
         "enrollment": 34099
@@ -1629,7 +1629,7 @@
         "endowment": 654.6,
         "median_salary": 47000,
         "student_faculty": 17,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 12970,
         "tuition_out_state": 31160,
         "enrollment": 28052
@@ -1644,7 +1644,7 @@
         "endowment": 577.1,
         "median_salary": 51200,
         "student_faculty": 7,
-        "female": "67.1%",
+        "female": 0.6709999999999999,
         "tuition_in_state": 25697,
         "tuition_out_state": 25697,
         "enrollment": 8966
@@ -1659,7 +1659,7 @@
         "endowment": 683.2,
         "median_salary": 46200,
         "student_faculty": 23,
-        "female": "55.5%",
+        "female": 0.555,
         "tuition_in_state": 10780,
         "tuition_out_state": 28100,
         "enrollment": 37663
@@ -1674,7 +1674,7 @@
         "endowment": 297.5,
         "median_salary": 54200,
         "student_faculty": 14,
-        "female": "61.9%",
+        "female": 0.619,
         "tuition_in_state": 46250,
         "tuition_out_state": 46250,
         "enrollment": 11018
@@ -1689,7 +1689,7 @@
         "endowment": 373.1,
         "median_salary": 53400,
         "student_faculty": 12,
-        "female": "53.4%",
+        "female": 0.534,
         "tuition_in_state": 46346,
         "tuition_out_state": 46346,
         "enrollment": 6128
@@ -1704,7 +1704,7 @@
         "endowment": 958.0,
         "median_salary": 49700,
         "student_faculty": 16,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 9166,
         "tuition_out_state": 26408,
         "enrollment": 31860
@@ -1719,7 +1719,7 @@
         "endowment": 483.9,
         "median_salary": 50200,
         "student_faculty": 23,
-        "female": "57.1%",
+        "female": 0.5710000000000001,
         "tuition_in_state": 10792,
         "tuition_out_state": 27372,
         "enrollment": 51869
@@ -1734,7 +1734,7 @@
         "endowment": 699.4,
         "median_salary": 51400,
         "student_faculty": 19,
-        "female": "57.4%",
+        "female": 0.574,
         "tuition_in_state": 8420,
         "tuition_out_state": 22256,
         "enrollment": 36350
@@ -1749,7 +1749,7 @@
         "endowment": 462.4,
         "median_salary": 46700,
         "student_faculty": 15,
-        "female": "51.9%",
+        "female": 0.519,
         "tuition_in_state": 16274,
         "tuition_out_state": 27266,
         "enrollment": 39308
@@ -1764,7 +1764,7 @@
         "endowment": 1500.0,
         "median_salary": 46800,
         "student_faculty": 17,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 10824,
         "tuition_out_state": 26592,
         "enrollment": 27565
@@ -1779,7 +1779,7 @@
         "endowment": 368.5,
         "median_salary": 50000,
         "student_faculty": 14,
-        "female": "54.3%",
+        "female": 0.5429999999999999,
         "tuition_in_state": 41133,
         "tuition_out_state": 41133,
         "enrollment": 9983
@@ -1794,7 +1794,7 @@
         "endowment": 312.0,
         "median_salary": 50500,
         "student_faculty": 7,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 44060,
         "tuition_out_state": 44060,
         "enrollment": 6076
@@ -1809,7 +1809,7 @@
         "endowment": 420.1,
         "median_salary": 49400,
         "student_faculty": 15,
-        "female": "52.6%",
+        "female": 0.526,
         "tuition_in_state": 39010,
         "tuition_out_state": 39010,
         "enrollment": 23110
@@ -1824,7 +1824,7 @@
         "endowment": 280.0,
         "median_salary": 46700,
         "student_faculty": 14,
-        "female": "62.8%",
+        "female": 0.628,
         "tuition_in_state": 36394,
         "tuition_out_state": 36394,
         "enrollment": 9340
@@ -1839,7 +1839,7 @@
         "endowment": 869.6,
         "median_salary": 46200,
         "student_faculty": 19,
-        "female": "52%",
+        "female": 0.52,
         "tuition_in_state": 9817,
         "tuition_out_state": 26506,
         "enrollment": 33266
@@ -1854,7 +1854,7 @@
         "endowment": 177.1,
         "median_salary": 62800,
         "student_faculty": 14,
-        "female": "70.5%",
+        "female": 0.705,
         "tuition_in_state": 47950,
         "tuition_out_state": 47950,
         "enrollment": 4384
@@ -1869,7 +1869,7 @@
         "endowment": 299.9,
         "median_salary": 49200,
         "student_faculty": 18,
-        "female": "50.9%",
+        "female": 0.509,
         "tuition_in_state": 11632,
         "tuition_out_state": 29140,
         "enrollment": 31856
@@ -1884,7 +1884,7 @@
         "endowment": 97.6,
         "median_salary": 62200,
         "student_faculty": 12,
-        "female": "73.3%",
+        "female": 0.733,
         "tuition_in_state": 15074,
         "tuition_out_state": 32318,
         "enrollment": 7270
@@ -1899,7 +1899,7 @@
         "endowment": 236.8,
         "median_salary": 52600,
         "student_faculty": 13,
-        "female": "55%",
+        "female": 0.55,
         "tuition_in_state": 40588,
         "tuition_out_state": 40588,
         "enrollment": 9836
@@ -1914,7 +1914,7 @@
         "endowment": null,
         "median_salary": 51500,
         "student_faculty": 22,
-        "female": "51.8%",
+        "female": 0.518,
         "tuition_in_state": 11644,
         "tuition_out_state": 32449,
         "enrollment": 43625
@@ -1929,7 +1929,7 @@
         "endowment": 294.9,
         "median_salary": 48300,
         "student_faculty": 22,
-        "female": "53.7%",
+        "female": 0.537,
         "tuition_in_state": 13917,
         "tuition_out_state": 41931,
         "enrollment": 22921
@@ -1944,7 +1944,7 @@
         "endowment": 473.1,
         "median_salary": 52100,
         "student_faculty": 15,
-        "female": "52.9%",
+        "female": 0.529,
         "tuition_in_state": 41750,
         "tuition_out_state": 41750,
         "enrollment": 10803
@@ -1959,7 +1959,7 @@
         "endowment": 869.9,
         "median_salary": 47300,
         "student_faculty": 21,
-        "female": "52.2%",
+        "female": 0.522,
         "tuition_in_state": 8690,
         "tuition_out_state": 23256,
         "enrollment": 25897
@@ -1974,7 +1974,7 @@
         "endowment": 444.9,
         "median_salary": 51000,
         "student_faculty": 14,
-        "female": "54.4%",
+        "female": 0.544,
         "tuition_in_state": 43960,
         "tuition_out_state": 43960,
         "enrollment": 11145
@@ -1989,7 +1989,7 @@
         "endowment": 468.5,
         "median_salary": 49800,
         "student_faculty": 22,
-        "female": "52.1%",
+        "female": 0.521,
         "tuition_in_state": 11374,
         "tuition_out_state": 28051,
         "enrollment": 31409
@@ -2004,7 +2004,7 @@
         "endowment": 251.1,
         "median_salary": 47400,
         "student_faculty": 13,
-        "female": "61.4%",
+        "female": 0.614,
         "tuition_in_state": 36000,
         "tuition_out_state": 36000,
         "enrollment": 8615
@@ -2019,7 +2019,7 @@
         "endowment": 322.3,
         "median_salary": 46400,
         "student_faculty": 9,
-        "female": "74.1%",
+        "female": 0.741,
         "tuition_in_state": 47330,
         "tuition_out_state": 47330,
         "enrollment": 10177
@@ -2034,7 +2034,7 @@
         "endowment": 103.8,
         "median_salary": 54400,
         "student_faculty": 10,
-        "female": "53.6%",
+        "female": 0.536,
         "tuition_in_state": 13829,
         "tuition_out_state": 29480,
         "enrollment": 12321
@@ -2049,7 +2049,7 @@
         "endowment": 898.9,
         "median_salary": 47600,
         "student_faculty": 19,
-        "female": "52.6%",
+        "female": 0.526,
         "tuition_in_state": 9062,
         "tuition_out_state": 24308,
         "enrollment": 27194
@@ -2064,7 +2064,7 @@
         "endowment": 1200.0,
         "median_salary": 49800,
         "student_faculty": 17,
-        "female": "50.3%",
+        "female": 0.503,
         "tuition_in_state": 11000,
         "tuition_out_state": 26334,
         "enrollment": 36637
@@ -2079,7 +2079,7 @@
         "endowment": 1200.0,
         "median_salary": 46500,
         "student_faculty": 17,
-        "female": "54.3%",
+        "female": 0.5429999999999999,
         "tuition_in_state": 11922,
         "tuition_out_state": 28046,
         "enrollment": 29781
@@ -2094,7 +2094,7 @@
         "endowment": 71.6,
         "median_salary": 53300,
         "student_faculty": 16,
-        "female": "50.9%",
+        "female": 0.509,
         "tuition_in_state": 11924,
         "tuition_out_state": 34370,
         "enrollment": 34904
@@ -2109,7 +2109,7 @@
         "endowment": 98.1,
         "median_salary": 58900,
         "student_faculty": 17,
-        "female": "78.5%",
+        "female": 0.785,
         "tuition_in_state": 16430,
         "tuition_out_state": 31034,
         "enrollment": 11317
@@ -2124,7 +2124,7 @@
         "endowment": 223.2,
         "median_salary": 50000,
         "student_faculty": 27,
-        "female": "54.3%",
+        "female": 0.5429999999999999,
         "tuition_in_state": 7460,
         "tuition_out_state": 19340,
         "enrollment": 34688
@@ -2139,7 +2139,7 @@
         "endowment": 367.7,
         "median_salary": 44900,
         "student_faculty": 22,
-        "female": "54.1%",
+        "female": 0.541,
         "tuition_in_state": 6410,
         "tuition_out_state": 17324,
         "enrollment": 42861
@@ -2154,7 +2154,7 @@
         "endowment": 907.8,
         "median_salary": 50900,
         "student_faculty": 15,
-        "female": "52.1%",
+        "female": 0.521,
         "tuition_in_state": 11391,
         "tuition_out_state": 25817,
         "enrollment": 30142
@@ -2169,7 +2169,7 @@
         "endowment": 475.6,
         "median_salary": 48600,
         "student_faculty": 18,
-        "female": "52.4%",
+        "female": 0.524,
         "tuition_in_state": 9874,
         "tuition_out_state": 24775,
         "enrollment": 23779
@@ -2184,7 +2184,7 @@
         "endowment": 562.8,
         "median_salary": 50600,
         "student_faculty": 18,
-        "female": "53.7%",
+        "female": 0.537,
         "tuition_in_state": 10797,
         "tuition_out_state": 29457,
         "enrollment": 30354
@@ -2199,7 +2199,7 @@
         "endowment": 73.8,
         "median_salary": 42500,
         "student_faculty": 11,
-        "female": "60%",
+        "female": 0.6,
         "tuition_in_state": 33120,
         "tuition_out_state": 33120,
         "enrollment": 3787
@@ -2214,7 +2214,7 @@
         "endowment": 318.3,
         "median_salary": 51700,
         "student_faculty": 18,
-        "female": "50.5%",
+        "female": 0.505,
         "tuition_in_state": 14816,
         "tuition_out_state": 27672,
         "enrollment": 29120
@@ -2229,7 +2229,7 @@
         "endowment": 602.9,
         "median_salary": 44500,
         "student_faculty": 18,
-        "female": "56.3%",
+        "female": 0.563,
         "tuition_in_state": 8290,
         "tuition_out_state": 23554,
         "enrollment": 23610
@@ -2244,7 +2244,7 @@
         "endowment": 436.2,
         "median_salary": 51400,
         "student_faculty": 23,
-        "female": "57.1%",
+        "female": 0.5710000000000001,
         "tuition_in_state": 12162,
         "tuition_out_state": 33654,
         "enrollment": 26793
@@ -2259,7 +2259,7 @@
         "endowment": 166.2,
         "median_salary": 50400,
         "student_faculty": 12,
-        "female": "68.8%",
+        "female": 0.688,
         "tuition_in_state": 37170,
         "tuition_out_state": 37170,
         "enrollment": 7687
@@ -2274,7 +2274,7 @@
         "endowment": 62.1,
         "median_salary": 56700,
         "student_faculty": 13,
-        "female": "70.3%",
+        "female": 0.703,
         "tuition_in_state": 41240,
         "tuition_out_state": 41240,
         "enrollment": 6451
@@ -2289,7 +2289,7 @@
         "endowment": 481.8,
         "median_salary": 46900,
         "student_faculty": 18,
-        "female": "60.1%",
+        "female": 0.601,
         "tuition_in_state": 11896,
         "tuition_out_state": 21360,
         "enrollment": 29712
@@ -2304,7 +2304,7 @@
         "endowment": 81.0,
         "median_salary": null,
         "student_faculty": 14,
-        "female": "67.5%",
+        "female": 0.675,
         "tuition_in_state": 40893,
         "tuition_out_state": 40893,
         "enrollment": 4061
@@ -2319,7 +2319,7 @@
         "endowment": 59.3,
         "median_salary": 47300,
         "student_faculty": 18,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 9278,
         "tuition_out_state": 24358,
         "enrollment": 17373
@@ -2334,7 +2334,7 @@
         "endowment": 371.0,
         "median_salary": 47700,
         "student_faculty": 20,
-        "female": "50.9%",
+        "female": 0.509,
         "tuition_in_state": 8738,
         "tuition_out_state": 23776,
         "enrollment": 25594
@@ -2349,7 +2349,7 @@
         "endowment": 73.1,
         "median_salary": 53900,
         "student_faculty": 17,
-        "female": "61.9%",
+        "female": 0.619,
         "tuition_in_state": 14800,
         "tuition_out_state": 31865,
         "enrollment": 17854
@@ -2364,7 +2364,7 @@
         "endowment": 136.8,
         "median_salary": 50000,
         "student_faculty": 17,
-        "female": "56.2%",
+        "female": 0.562,
         "tuition_in_state": 12884,
         "tuition_out_state": 28874,
         "enrollment": 17834
@@ -2379,7 +2379,7 @@
         "endowment": 124.0,
         "median_salary": 43500,
         "student_faculty": 15,
-        "female": "63.7%",
+        "female": 0.637,
         "tuition_in_state": 38448,
         "tuition_out_state": 38448,
         "enrollment": 6095
@@ -2394,7 +2394,7 @@
         "endowment": 96.4,
         "median_salary": 45900,
         "student_faculty": 18,
-        "female": "55.4%",
+        "female": 0.5539999999999999,
         "tuition_in_state": 14061,
         "tuition_out_state": 25168,
         "enrollment": 21039
@@ -2409,7 +2409,7 @@
         "endowment": 449.2,
         "median_salary": 44800,
         "student_faculty": 16,
-        "female": "59.3%",
+        "female": 0.593,
         "tuition_in_state": 10410,
         "tuition_out_state": 23790,
         "enrollment": 19535
@@ -2424,7 +2424,7 @@
         "endowment": 37.3,
         "median_salary": 45900,
         "student_faculty": 10,
-        "female": "55.2%",
+        "female": 0.552,
         "tuition_in_state": 11732,
         "tuition_out_state": 33764,
         "enrollment": 18056
@@ -2439,7 +2439,7 @@
         "endowment": 78.8,
         "median_salary": 46200,
         "student_faculty": 13,
-        "female": "58%",
+        "female": 0.58,
         "tuition_in_state": 41450,
         "tuition_out_state": 41450,
         "enrollment": 4873
@@ -2454,7 +2454,7 @@
         "endowment": 83.0,
         "median_salary": 53600,
         "student_faculty": 19,
-        "female": "55.4%",
+        "female": 0.5539999999999999,
         "tuition_in_state": 11518,
         "tuition_out_state": 25654,
         "enrollment": 13640
@@ -2469,7 +2469,7 @@
         "endowment": null,
         "median_salary": 45500,
         "student_faculty": 8,
-        "female": "74.1%",
+        "female": 0.741,
         "tuition_in_state": 27350,
         "tuition_out_state": 27350,
         "enrollment": 2610
@@ -2484,7 +2484,7 @@
         "endowment": 44.0,
         "median_salary": 45000,
         "student_faculty": 13,
-        "female": "67.3%",
+        "female": 0.6729999999999999,
         "tuition_in_state": 28470,
         "tuition_out_state": 28470,
         "enrollment": 6828
@@ -2499,7 +2499,7 @@
         "endowment": 176.0,
         "median_salary": 64900,
         "student_faculty": 19,
-        "female": "76.7%",
+        "female": 0.767,
         "tuition_in_state": 9628,
         "tuition_out_state": 27701,
         "enrollment": 8838
@@ -2514,7 +2514,7 @@
         "endowment": 643.4,
         "median_salary": 50300,
         "student_faculty": 17,
-        "female": "56.1%",
+        "female": 0.561,
         "tuition_in_state": 40790,
         "tuition_out_state": 40790,
         "enrollment": 21087
@@ -2529,7 +2529,7 @@
         "endowment": null,
         "median_salary": null,
         "student_faculty": 20,
-        "female": "51.2%",
+        "female": 0.512,
         "tuition_in_state": 13598,
         "tuition_out_state": 41612,
         "enrollment": 7336
@@ -2544,7 +2544,7 @@
         "endowment": 739.0,
         "median_salary": 45100,
         "student_faculty": 15,
-        "female": "50.4%",
+        "female": 0.504,
         "tuition_in_state": 11264,
         "tuition_out_state": 26286,
         "enrollment": 21579
@@ -2559,7 +2559,7 @@
         "endowment": 444.5,
         "median_salary": 47500,
         "student_faculty": 20,
-        "female": "50%",
+        "female": 0.5,
         "tuition_in_state": 8138,
         "tuition_out_state": 22358,
         "enrollment": 21622
@@ -2574,7 +2574,7 @@
         "endowment": 173.2,
         "median_salary": 47000,
         "student_faculty": 17,
-        "female": "54.4%",
+        "female": 0.544,
         "tuition_in_state": 13108,
         "tuition_out_state": 21378,
         "enrollment": 17371
@@ -2589,7 +2589,7 @@
         "endowment": 144.9,
         "median_salary": 45200,
         "student_faculty": 30,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 6368,
         "tuition_out_state": 22467,
         "enrollment": 64321
@@ -2604,7 +2604,7 @@
         "endowment": 237.5,
         "median_salary": 48700,
         "student_faculty": 16,
-        "female": "53.7%",
+        "female": 0.537,
         "tuition_in_state": 7488,
         "tuition_out_state": 23812,
         "enrollment": 11780
@@ -2619,7 +2619,7 @@
         "endowment": 607.4,
         "median_salary": 45300,
         "student_faculty": 18,
-        "female": "58.9%",
+        "female": 0.589,
         "tuition_in_state": 13570,
         "tuition_out_state": 32942,
         "enrollment": 31231
@@ -2634,7 +2634,7 @@
         "endowment": 118.4,
         "median_salary": 41700,
         "student_faculty": 21,
-        "female": "60.9%",
+        "female": 0.609,
         "tuition_in_state": 10012,
         "tuition_out_state": 18376,
         "enrollment": 30167
@@ -2649,7 +2649,7 @@
         "endowment": 30.3,
         "median_salary": 45700,
         "student_faculty": 15,
-        "female": "57.6%",
+        "female": 0.5760000000000001,
         "tuition_in_state": 29420,
         "tuition_out_state": 29420,
         "enrollment": 5199
@@ -2664,7 +2664,7 @@
         "endowment": 674.6,
         "median_salary": 51500,
         "student_faculty": 21,
-        "female": "54.9%",
+        "female": 0.5489999999999999,
         "tuition_in_state": 10771,
         "tuition_out_state": 23011,
         "enrollment": 36551
@@ -2679,7 +2679,7 @@
         "endowment": 38.1,
         "median_salary": 42900,
         "student_faculty": 11,
-        "female": "65.1%",
+        "female": 0.6509999999999999,
         "tuition_in_state": 31580,
         "tuition_out_state": 31580,
         "enrollment": 3339
@@ -2694,7 +2694,7 @@
         "endowment": 145.5,
         "median_salary": 49600,
         "student_faculty": 9,
-        "female": "51.2%",
+        "female": 0.512,
         "tuition_in_state": 38910,
         "tuition_out_state": 38910,
         "enrollment": 6714
@@ -2709,7 +2709,7 @@
         "endowment": 45.6,
         "median_salary": null,
         "student_faculty": 10,
-        "female": "72.3%",
+        "female": 0.723,
         "tuition_in_state": 28500,
         "tuition_out_state": 28500,
         "enrollment": 2552
@@ -2724,7 +2724,7 @@
         "endowment": 172.7,
         "median_salary": 43200,
         "student_faculty": 12,
-        "female": "77.4%",
+        "female": 0.774,
         "tuition_in_state": 26550,
         "tuition_out_state": 26550,
         "enrollment": 4826
@@ -2739,7 +2739,7 @@
         "endowment": 68.8,
         "median_salary": 43900,
         "student_faculty": 12,
-        "female": "61.8%",
+        "female": 0.618,
         "tuition_in_state": 30932,
         "tuition_out_state": 30932,
         "enrollment": 4632
@@ -2754,7 +2754,7 @@
         "endowment": 181.6,
         "median_salary": 46400,
         "student_faculty": 13,
-        "female": "54.8%",
+        "female": 0.5479999999999999,
         "tuition_in_state": 37270,
         "tuition_out_state": 37270,
         "enrollment": 7560
@@ -2769,7 +2769,7 @@
         "endowment": 270.5,
         "median_salary": 47300,
         "student_faculty": 16,
-        "female": "53.1%",
+        "female": 0.531,
         "tuition_in_state": 10902,
         "tuition_out_state": 30282,
         "enrollment": 11219
@@ -2784,7 +2784,7 @@
         "endowment": 422.3,
         "median_salary": 49100,
         "student_faculty": 14,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 5217,
         "tuition_out_state": 16827,
         "enrollment": 12366
@@ -2799,7 +2799,7 @@
         "endowment": 67.7,
         "median_salary": 44200,
         "student_faculty": 12,
-        "female": "66.2%",
+        "female": 0.662,
         "tuition_in_state": 36120,
         "tuition_out_state": 36120,
         "enrollment": 10020
@@ -2814,7 +2814,7 @@
         "endowment": 192.7,
         "median_salary": 41200,
         "student_faculty": 14,
-        "female": "59.2%",
+        "female": 0.5920000000000001,
         "tuition_in_state": 9848,
         "tuition_out_state": 25938,
         "enrollment": 21998
@@ -2829,7 +2829,7 @@
         "endowment": 39.4,
         "median_salary": 46400,
         "student_faculty": 17,
-        "female": "61.4%",
+        "female": 0.614,
         "tuition_in_state": 12454,
         "tuition_out_state": 20566,
         "enrollment": 20987
@@ -2844,7 +2844,7 @@
         "endowment": 152.2,
         "median_salary": 53900,
         "student_faculty": 14,
-        "female": "60.5%",
+        "female": 0.605,
         "tuition_in_state": 44036,
         "tuition_out_state": 44036,
         "enrollment": 13245
@@ -2859,7 +2859,7 @@
         "endowment": 578.7,
         "median_salary": 49200,
         "student_faculty": 19,
-        "female": "54.1%",
+        "female": 0.541,
         "tuition_in_state": 8376,
         "tuition_out_state": 23616,
         "enrollment": 28488
@@ -2874,7 +2874,7 @@
         "endowment": 49.0,
         "median_salary": 44800,
         "student_faculty": 9,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 28436,
         "tuition_out_state": 28436,
         "enrollment": 3349
@@ -2889,7 +2889,7 @@
         "endowment": 942.1,
         "median_salary": 46200,
         "student_faculty": 17,
-        "female": "56.2%",
+        "female": 0.562,
         "tuition_in_state": 9334,
         "tuition_out_state": 29806,
         "enrollment": 29804
@@ -2904,7 +2904,7 @@
         "endowment": 679.2,
         "median_salary": 51400,
         "student_faculty": 21,
-        "female": "51.2%",
+        "female": 0.512,
         "tuition_in_state": 11887,
         "tuition_out_state": 27337,
         "enrollment": 43774
@@ -2919,7 +2919,7 @@
         "endowment": null,
         "median_salary": 44600,
         "student_faculty": 20,
-        "female": "55.4%",
+        "female": 0.5539999999999999,
         "tuition_in_state": 7150,
         "tuition_out_state": 22412,
         "enrollment": 27060
@@ -2934,7 +2934,7 @@
         "endowment": 177.3,
         "median_salary": 48900,
         "student_faculty": 21,
-        "female": "56.5%",
+        "female": 0.565,
         "tuition_in_state": 9862,
         "tuition_out_state": 21462,
         "enrollment": 14648
@@ -2949,7 +2949,7 @@
         "endowment": 87.2,
         "median_salary": null,
         "student_faculty": 13,
-        "female": "55.4%",
+        "female": 0.5539999999999999,
         "tuition_in_state": 44166,
         "tuition_out_state": 44166,
         "enrollment": 6402
@@ -2964,7 +2964,7 @@
         "endowment": 98.8,
         "median_salary": 48100,
         "student_faculty": 16,
-        "female": "53.4%",
+        "female": 0.534,
         "tuition_in_state": 7122,
         "tuition_out_state": 22701,
         "enrollment": 14852
@@ -2979,7 +2979,7 @@
         "endowment": 509.719,
         "median_salary": 51200,
         "student_faculty": 17,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 9409,
         "tuition_out_state": 20571,
         "enrollment": 14432
@@ -2994,7 +2994,7 @@
         "endowment": 104.5,
         "median_salary": 48300,
         "student_faculty": 17,
-        "female": "69.5%",
+        "female": 0.695,
         "tuition_in_state": 29940,
         "tuition_out_state": 29940,
         "enrollment": 21625
@@ -3009,7 +3009,7 @@
         "endowment": 169.7,
         "median_salary": 48100,
         "student_faculty": 19,
-        "female": "52.6%",
+        "female": 0.526,
         "tuition_in_state": 6834,
         "tuition_out_state": 20268,
         "enrollment": 28721
@@ -3024,7 +3024,7 @@
         "endowment": 146.7,
         "median_salary": 43200,
         "student_faculty": 18,
-        "female": "56.1%",
+        "female": 0.561,
         "tuition_in_state": 11057,
         "tuition_out_state": 18593,
         "enrollment": 17644
@@ -3039,7 +3039,7 @@
         "endowment": null,
         "median_salary": 46200,
         "student_faculty": 25,
-        "female": "55.6%",
+        "female": 0.556,
         "tuition_in_state": 6850,
         "tuition_out_state": 17460,
         "enrollment": 40235
@@ -3054,7 +3054,7 @@
         "endowment": 41.7,
         "median_salary": 45700,
         "student_faculty": 12,
-        "female": "58.5%",
+        "female": 0.585,
         "tuition_in_state": 27480,
         "tuition_out_state": 27480,
         "enrollment": 5156
@@ -3069,7 +3069,7 @@
         "endowment": 74.4,
         "median_salary": 49300,
         "student_faculty": 16,
-        "female": "54%",
+        "female": 0.54,
         "tuition_in_state": 13828,
         "tuition_out_state": 32985,
         "enrollment": 16847
@@ -3084,7 +3084,7 @@
         "endowment": 285.2,
         "median_salary": 48600,
         "student_faculty": 21,
-        "female": "52.9%",
+        "female": 0.529,
         "tuition_in_state": 7599,
         "tuition_out_state": 21787,
         "enrollment": 21353
@@ -3099,7 +3099,7 @@
         "endowment": 130.7,
         "median_salary": 43800,
         "student_faculty": 22,
-        "female": "56.5%",
+        "female": 0.565,
         "tuition_in_state": 12510,
         "tuition_out_state": 23670,
         "enrollment": 26080
@@ -3114,7 +3114,7 @@
         "endowment": 166.7,
         "median_salary": 43900,
         "student_faculty": 18,
-        "female": "57.1%",
+        "female": 0.5710000000000001,
         "tuition_in_state": 7143,
         "tuition_out_state": 23420,
         "enrollment": 28962
@@ -3129,7 +3129,7 @@
         "endowment": 84.3,
         "median_salary": 44700,
         "student_faculty": 15,
-        "female": "64.8%",
+        "female": 0.648,
         "tuition_in_state": 5785,
         "tuition_out_state": 17725,
         "enrollment": 9619
@@ -3144,7 +3144,7 @@
         "endowment": 127.4,
         "median_salary": 50500,
         "student_faculty": 19,
-        "female": "55.1%",
+        "female": 0.551,
         "tuition_in_state": 7031,
         "tuition_out_state": 23042,
         "enrollment": 16440
@@ -3159,7 +3159,7 @@
         "endowment": 80.7,
         "median_salary": 52600,
         "student_faculty": 10,
-        "female": "54.4%",
+        "female": 0.544,
         "tuition_in_state": 8144,
         "tuition_out_state": 23534,
         "enrollment": 8360
@@ -3174,7 +3174,7 @@
         "endowment": 428.7,
         "median_salary": 49300,
         "student_faculty": 15,
-        "female": "53.9%",
+        "female": 0.539,
         "tuition_in_state": 11019,
         "tuition_out_state": 31209,
         "enrollment": 23960
@@ -3189,7 +3189,7 @@
         "endowment": 46.1,
         "median_salary": 49800,
         "student_faculty": 16,
-        "female": "50.8%",
+        "female": 0.508,
         "tuition_in_state": 13571,
         "tuition_out_state": 28285,
         "enrollment": 8647
@@ -3204,7 +3204,7 @@
         "endowment": 161.4,
         "median_salary": 41300,
         "student_faculty": 16,
-        "female": "54.6%",
+        "female": 0.546,
         "tuition_in_state": 7063,
         "tuition_out_state": 24943,
         "enrollment": 12419
@@ -3219,7 +3219,7 @@
         "endowment": 345.5,
         "median_salary": 46400,
         "student_faculty": 17,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 11943,
         "tuition_out_state": 14699,
         "enrollment": 23252
@@ -3234,7 +3234,7 @@
         "endowment": 222.9,
         "median_salary": 44900,
         "student_faculty": 26,
-        "female": "56%",
+        "female": 0.56,
         "tuition_in_state": 6558,
         "tuition_out_state": 18956,
         "enrollment": 55111
@@ -3249,7 +3249,7 @@
         "endowment": 72.2,
         "median_salary": 49500,
         "student_faculty": 26,
-        "female": "56.1%",
+        "female": 0.561,
         "tuition_in_state": 9525,
         "tuition_out_state": 18438,
         "enrollment": 12672
@@ -3264,7 +3264,7 @@
         "endowment": 102.4,
         "median_salary": null,
         "student_faculty": 17,
-        "female": "51.7%",
+        "female": 0.517,
         "tuition_in_state": 8172,
         "tuition_out_state": 11403,
         "enrollment": 12613
@@ -3279,7 +3279,7 @@
         "endowment": 118.1,
         "median_salary": 47000,
         "student_faculty": 15,
-        "female": "54.5%",
+        "female": 0.545,
         "tuition_in_state": 13936,
         "tuition_out_state": 13936,
         "enrollment": 15987
@@ -3294,7 +3294,7 @@
         "endowment": 75.1,
         "median_salary": 52800,
         "student_faculty": 17,
-        "female": "58.3%",
+        "female": 0.583,
         "tuition_in_state": 10280,
         "tuition_out_state": 21480,
         "enrollment": 8468
@@ -3309,7 +3309,7 @@
         "endowment": 172.5,
         "median_salary": 46000,
         "student_faculty": 14,
-        "female": "57%",
+        "female": 0.57,
         "tuition_in_state": 9734,
         "tuition_out_state": 25999,
         "enrollment": 16944
@@ -3324,7 +3324,7 @@
         "endowment": 326.0,
         "median_salary": 47800,
         "student_faculty": 21,
-        "female": "52.4%",
+        "female": 0.524,
         "tuition_in_state": 7174,
         "tuition_out_state": 20726,
         "enrollment": 28118
@@ -3339,7 +3339,7 @@
         "endowment": 36.8,
         "median_salary": 40000,
         "student_faculty": 16,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 20700,
         "tuition_out_state": 20700,
         "enrollment": 6579
@@ -3354,7 +3354,7 @@
         "endowment": null,
         "median_salary": 46300,
         "student_faculty": 13,
-        "female": "56%",
+        "female": 0.56,
         "tuition_in_state": 33900,
         "tuition_out_state": 33900,
         "enrollment": 5893
@@ -3369,7 +3369,7 @@
         "endowment": 129.3,
         "median_salary": 46200,
         "student_faculty": 21,
-        "female": "57.7%",
+        "female": 0.5770000000000001,
         "tuition_in_state": 6583,
         "tuition_out_state": 17929,
         "enrollment": 24403
@@ -3384,7 +3384,7 @@
         "endowment": 61.5,
         "median_salary": 37900,
         "student_faculty": 13,
-        "female": "64%",
+        "female": 0.64,
         "tuition_in_state": 30740,
         "tuition_out_state": 30740,
         "enrollment": 3916
@@ -3399,7 +3399,7 @@
         "endowment": 139.2,
         "median_salary": 45900,
         "student_faculty": 19,
-        "female": "59.1%",
+        "female": 0.591,
         "tuition_in_state": 10858,
         "tuition_out_state": 29432,
         "enrollment": 32464
@@ -3414,7 +3414,7 @@
         "endowment": 60.3,
         "median_salary": null,
         "student_faculty": 11,
-        "female": "59.8%",
+        "female": 0.598,
         "tuition_in_state": 31920,
         "tuition_out_state": 31920,
         "enrollment": 3918
@@ -3429,7 +3429,7 @@
         "endowment": 205.7,
         "median_salary": 42000,
         "student_faculty": 18,
-        "female": "61.4%",
+        "female": 0.614,
         "tuition_in_state": 8457,
         "tuition_out_state": 11688,
         "enrollment": 10038
@@ -3444,7 +3444,7 @@
         "endowment": 325.4,
         "median_salary": 47000,
         "student_faculty": 16,
-        "female": "55.2%",
+        "female": 0.552,
         "tuition_in_state": 13278,
         "tuition_out_state": 28590,
         "enrollment": 27298
@@ -3459,7 +3459,7 @@
         "endowment": null,
         "median_salary": null,
         "student_faculty": null,
-        "female": "60.5%",
+        "female": 0.605,
         "tuition_in_state": 33140,
         "tuition_out_state": 33140,
         "enrollment": 3387
@@ -3474,7 +3474,7 @@
         "endowment": 0.0,
         "median_salary": null,
         "student_faculty": null,
-        "female": "64.4%",
+        "female": 0.644,
         "tuition_in_state": 8634,
         "tuition_out_state": 23606,
         "enrollment": 7938
@@ -3489,7 +3489,7 @@
         "endowment": 36.6,
         "median_salary": 46400,
         "student_faculty": 11,
-        "female": "61%",
+        "female": 0.61,
         "tuition_in_state": 29700,
         "tuition_out_state": 29700,
         "enrollment": 7404
@@ -3504,7 +3504,7 @@
         "endowment": 92.5,
         "median_salary": 44600,
         "student_faculty": 17,
-        "female": "53.5%",
+        "female": 0.535,
         "tuition_in_state": 7326,
         "tuition_out_state": 22642,
         "enrollment": 23886
@@ -3519,7 +3519,7 @@
         "endowment": 17.0,
         "median_salary": 46600,
         "student_faculty": 15,
-        "female": "66.3%",
+        "female": 0.6629999999999999,
         "tuition_in_state": 28844,
         "tuition_out_state": 28844,
         "enrollment": 2464
@@ -3534,7 +3534,7 @@
         "endowment": 62.2,
         "median_salary": 42700,
         "student_faculty": 19,
-        "female": "71.1%",
+        "female": 0.711,
         "tuition_in_state": 23082,
         "tuition_out_state": 23082,
         "enrollment": 3884
@@ -3549,7 +3549,7 @@
         "endowment": null,
         "median_salary": 46400,
         "student_faculty": 17,
-        "female": "52.8%",
+        "female": 0.528,
         "tuition_in_state": 9796,
         "tuition_out_state": 13848,
         "enrollment": 16949
@@ -3564,7 +3564,7 @@
         "endowment": 66.9,
         "median_salary": 43400,
         "student_faculty": 17,
-        "female": "59.4%",
+        "female": 0.594,
         "tuition_in_state": 11530,
         "tuition_out_state": 11530,
         "enrollment": 21105
@@ -3579,7 +3579,7 @@
         "endowment": 109.7,
         "median_salary": 41500,
         "student_faculty": 16,
-        "female": "56%",
+        "female": 0.56,
         "tuition_in_state": 8679,
         "tuition_out_state": 26463,
         "enrollment": 14022
@@ -3594,7 +3594,7 @@
         "endowment": 257.9,
         "median_salary": 45300,
         "student_faculty": 24,
-        "female": "56.1%",
+        "female": 0.561,
         "tuition_in_state": 6039,
         "tuition_out_state": 21595,
         "enrollment": 30541
@@ -3609,7 +3609,7 @@
         "endowment": 47.5,
         "median_salary": 44600,
         "student_faculty": 22,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 6796,
         "tuition_out_state": 18692,
         "enrollment": 20673
@@ -3639,7 +3639,7 @@
         "endowment": 42.2,
         "median_salary": 44600,
         "student_faculty": 21,
-        "female": "54.3%",
+        "female": 0.5429999999999999,
         "tuition_in_state": 8916,
         "tuition_out_state": 19454,
         "enrollment": 13565
@@ -3654,7 +3654,7 @@
         "endowment": 43.3,
         "median_salary": 42800,
         "student_faculty": 16,
-        "female": "56.3%",
+        "female": 0.563,
         "tuition_in_state": 12146,
         "tuition_out_state": 15882,
         "enrollment": 12853
@@ -3669,7 +3669,7 @@
         "endowment": null,
         "median_salary": 38600,
         "student_faculty": 18,
-        "female": "63.3%",
+        "female": 0.633,
         "tuition_in_state": 7261,
         "tuition_out_state": 17614,
         "enrollment": 9811
@@ -3684,7 +3684,7 @@
         "endowment": 37.2,
         "median_salary": 44400,
         "student_faculty": 20,
-        "female": "52%",
+        "female": 0.52,
         "tuition_in_state": 7432,
         "tuition_out_state": 21158,
         "enrollment": 35018
@@ -3699,7 +3699,7 @@
         "endowment": 29.1,
         "median_salary": 49600,
         "student_faculty": 15,
-        "female": "58.3%",
+        "female": 0.583,
         "tuition_in_state": 10111,
         "tuition_out_state": 22561,
         "enrollment": 15001
@@ -3714,7 +3714,7 @@
         "endowment": 1100.0,
         "median_salary": 40000,
         "student_faculty": 19,
-        "female": "58.5%",
+        "female": 0.585,
         "tuition_in_state": 24304,
         "tuition_out_state": 24304,
         "enrollment": 75756
@@ -3729,7 +3729,7 @@
         "endowment": 139.3,
         "median_salary": 40500,
         "student_faculty": 13,
-        "female": "54.2%",
+        "female": 0.542,
         "tuition_in_state": 16960,
         "tuition_out_state": 16960,
         "enrollment": 10750
@@ -3744,7 +3744,7 @@
         "endowment": null,
         "median_salary": 42700,
         "student_faculty": 18,
-        "female": "54%",
+        "female": 0.54,
         "tuition_in_state": 8948,
         "tuition_out_state": 27578,
         "enrollment": 22050
@@ -3759,7 +3759,7 @@
         "endowment": 29.4,
         "median_salary": 45300,
         "student_faculty": 13,
-        "female": "51.5%",
+        "female": 0.515,
         "tuition_in_state": 7767,
         "tuition_out_state": 17833,
         "enrollment": 7712
@@ -3789,7 +3789,7 @@
         "endowment": 48.1,
         "median_salary": 51000,
         "student_faculty": 19,
-        "female": "55.5%",
+        "female": 0.555,
         "tuition_in_state": 6526,
         "tuition_out_state": 19416,
         "enrollment": 11177
@@ -3804,7 +3804,7 @@
         "endowment": 143.9,
         "median_salary": 45000,
         "student_faculty": 18,
-        "female": "59.3%",
+        "female": 0.593,
         "tuition_in_state": 11059,
         "tuition_out_state": 24841,
         "enrollment": 30368
@@ -3819,7 +3819,7 @@
         "endowment": 69.4,
         "median_salary": 48300,
         "student_faculty": 15,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 14352,
         "tuition_out_state": 23817,
         "enrollment": 19015
@@ -3834,7 +3834,7 @@
         "endowment": 82.0,
         "median_salary": 47000,
         "student_faculty": 21,
-        "female": "56.5%",
+        "female": 0.565,
         "tuition_in_state": 13406,
         "tuition_out_state": 24735,
         "enrollment": 20012
@@ -3849,7 +3849,7 @@
         "endowment": 194.7,
         "median_salary": 46600,
         "student_faculty": 18,
-        "female": "54.5%",
+        "female": 0.545,
         "tuition_in_state": 10350,
         "tuition_out_state": 28200,
         "enrollment": 24322
@@ -3864,7 +3864,7 @@
         "endowment": 2.6,
         "median_salary": null,
         "student_faculty": null,
-        "female": "53.2%",
+        "female": 0.532,
         "tuition_in_state": 7302,
         "tuition_out_state": 21180,
         "enrollment": 27229
@@ -3879,7 +3879,7 @@
         "endowment": 71.2,
         "median_salary": 53900,
         "student_faculty": 18,
-        "female": "59.4%",
+        "female": 0.594,
         "tuition_in_state": 10059,
         "tuition_out_state": 10059,
         "enrollment": 8762
@@ -3894,7 +3894,7 @@
         "endowment": 106.8,
         "median_salary": null,
         "student_faculty": 21,
-        "female": "61.4%",
+        "female": 0.614,
         "tuition_in_state": 17450,
         "tuition_out_state": 17450,
         "enrollment": 8868
@@ -3909,7 +3909,7 @@
         "endowment": 100.3,
         "median_salary": 44500,
         "student_faculty": 23,
-        "female": "61.7%",
+        "female": 0.617,
         "tuition_in_state": 9890,
         "tuition_out_state": 22340,
         "enrollment": 20477
@@ -3924,7 +3924,7 @@
         "endowment": 46.8,
         "median_salary": 51300,
         "student_faculty": 23,
-        "female": "55.7%",
+        "female": 0.557,
         "tuition_in_state": 7254,
         "tuition_out_state": 19134,
         "enrollment": 29045
@@ -3954,7 +3954,7 @@
         "endowment": 49.7,
         "median_salary": null,
         "student_faculty": 14,
-        "female": "59.4%",
+        "female": 0.594,
         "tuition_in_state": 7458,
         "tuition_out_state": 20178,
         "enrollment": 8753
@@ -3969,7 +3969,7 @@
         "endowment": 52.9,
         "median_salary": 50600,
         "student_faculty": 18,
-        "female": "54.8%",
+        "female": 0.5479999999999999,
         "tuition_in_state": null,
         "tuition_out_state": 26190,
         "enrollment": 10492
@@ -3984,7 +3984,7 @@
         "endowment": 21.9,
         "median_salary": 42700,
         "student_faculty": 19,
-        "female": "59.5%",
+        "female": 0.595,
         "tuition_in_state": 8434,
         "tuition_out_state": 20884,
         "enrollment": 12385
@@ -3999,7 +3999,7 @@
         "endowment": 14.8,
         "median_salary": 44600,
         "student_faculty": 20,
-        "female": "58.7%",
+        "female": 0.5870000000000001,
         "tuition_in_state": 12944,
         "tuition_out_state": 26061,
         "enrollment": 12202
@@ -4014,7 +4014,7 @@
         "endowment": 21.9,
         "median_salary": 50500,
         "student_faculty": 19,
-        "female": "53.6%",
+        "female": 0.536,
         "tuition_in_state": 8462,
         "tuition_out_state": 20912,
         "enrollment": 9278
@@ -4029,7 +4029,7 @@
         "endowment": 48.6,
         "median_salary": 42800,
         "student_faculty": 18,
-        "female": "55.5%",
+        "female": 0.555,
         "tuition_in_state": 9000,
         "tuition_out_state": 21240,
         "enrollment": 8862
@@ -4044,7 +4044,7 @@
         "endowment": 164.7,
         "median_salary": 45400,
         "student_faculty": 19,
-        "female": "57.1%",
+        "female": 0.5710000000000001,
         "tuition_in_state": 10621,
         "tuition_out_state": 23071,
         "enrollment": 38808
@@ -4059,7 +4059,7 @@
         "endowment": 60.6,
         "median_salary": 46900,
         "student_faculty": 18,
-        "female": "88.2%",
+        "female": 0.882,
         "tuition_in_state": 9366,
         "tuition_out_state": 21816,
         "enrollment": 15655
@@ -4074,7 +4074,7 @@
         "endowment": 25.8,
         "median_salary": 42800,
         "student_faculty": 17,
-        "female": "60.3%",
+        "female": 0.603,
         "tuition_in_state": 25100,
         "tuition_out_state": 25100,
         "enrollment": 3221
@@ -4089,7 +4089,7 @@
         "endowment": 45.4,
         "median_salary": null,
         "student_faculty": null,
-        "female": "50.6%",
+        "female": 0.506,
         "tuition_in_state": 30750,
         "tuition_out_state": 30750,
         "enrollment": 2601
@@ -4104,7 +4104,7 @@
         "endowment": 223.2,
         "median_salary": 46400,
         "student_faculty": 17,
-        "female": "55.1%",
+        "female": 0.551,
         "tuition_in_state": 13332,
         "tuition_out_state": 21863,
         "enrollment": 21099
@@ -4119,7 +4119,7 @@
         "endowment": 66.2,
         "median_salary": 41600,
         "student_faculty": 11,
-        "female": "60.4%",
+        "female": 0.604,
         "tuition_in_state": 8401,
         "tuition_out_state": 19797,
         "enrollment": 11665
@@ -4134,7 +4134,7 @@
         "endowment": 136.4,
         "median_salary": 44800,
         "student_faculty": 22,
-        "female": "56.8%",
+        "female": 0.568,
         "tuition_in_state": 9346,
         "tuition_out_state": 23074,
         "enrollment": 17519
@@ -4149,7 +4149,7 @@
         "endowment": 50.6,
         "median_salary": 46200,
         "student_faculty": 20,
-        "female": "65.7%",
+        "female": 0.657,
         "tuition_in_state": 8281,
         "tuition_out_state": 20381,
         "enrollment": 9038
@@ -4164,7 +4164,7 @@
         "endowment": null,
         "median_salary": 44300,
         "student_faculty": 14,
-        "female": "55%",
+        "female": 0.55,
         "tuition_in_state": 8042,
         "tuition_out_state": 18048,
         "enrollment": 3906
@@ -4179,7 +4179,7 @@
         "endowment": 193.8,
         "median_salary": 44900,
         "student_faculty": 16,
-        "female": "58.3%",
+        "female": 0.583,
         "tuition_in_state": 9701,
         "tuition_out_state": 21413,
         "enrollment": 21301
@@ -4194,7 +4194,7 @@
         "endowment": 73.4,
         "median_salary": 44900,
         "student_faculty": 18,
-        "female": "55.5%",
+        "female": 0.555,
         "tuition_in_state": 10275,
         "tuition_out_state": 27327,
         "enrollment": 17014
@@ -4209,7 +4209,7 @@
         "endowment": 73.4,
         "median_salary": 44900,
         "student_faculty": 17,
-        "female": "52%",
+        "female": 0.52,
         "tuition_in_state": 8205,
         "tuition_out_state": 22035,
         "enrollment": 15627
@@ -4224,7 +4224,7 @@
         "endowment": 206.4,
         "median_salary": 46700,
         "student_faculty": 21,
-        "female": "56.5%",
+        "female": 0.565,
         "tuition_in_state": 7310,
         "tuition_out_state": 21498,
         "enrollment": 29702
@@ -4239,7 +4239,7 @@
         "endowment": 20.6,
         "median_salary": 45600,
         "student_faculty": 19,
-        "female": "50.8%",
+        "female": 0.508,
         "tuition_in_state": 8694,
         "tuition_out_state": 13530,
         "enrollment": 8037
@@ -4254,7 +4254,7 @@
         "endowment": 235.6,
         "median_salary": 40100,
         "student_faculty": 18,
-        "female": "66.2%",
+        "female": 0.662,
         "tuition_in_state": 7164,
         "tuition_out_state": 22410,
         "enrollment": 19653
@@ -4269,7 +4269,7 @@
         "endowment": 77.5,
         "median_salary": 44200,
         "student_faculty": 18,
-        "female": "64.1%",
+        "female": 0.6409999999999999,
         "tuition_in_state": 8888,
         "tuition_out_state": 20474,
         "enrollment": 12260
@@ -4284,7 +4284,7 @@
         "endowment": 133.5,
         "median_salary": 45000,
         "student_faculty": 26,
-        "female": "52%",
+        "female": 0.52,
         "tuition_in_state": 10906,
         "tuition_out_state": 23716,
         "enrollment": 37979
@@ -4299,7 +4299,7 @@
         "endowment": 147.1,
         "median_salary": 45700,
         "student_faculty": 20,
-        "female": "53.8%",
+        "female": 0.5379999999999999,
         "tuition_in_state": 10005,
         "tuition_out_state": 19586,
         "enrollment": 16443
@@ -4314,7 +4314,7 @@
         "endowment": null,
         "median_salary": 41600,
         "student_faculty": 17,
-        "female": "63%",
+        "female": 0.63,
         "tuition_in_state": 7854,
         "tuition_out_state": 9854,
         "enrollment": 14552
@@ -4329,7 +4329,7 @@
         "endowment": 129.0,
         "median_salary": 51400,
         "student_faculty": 25,
-        "female": "61.6%",
+        "female": 0.616,
         "tuition_in_state": 9952,
         "tuition_out_state": 25152,
         "enrollment": 45282
@@ -4344,7 +4344,7 @@
         "endowment": 218.9,
         "median_salary": 46700,
         "student_faculty": 20,
-        "female": "53.2%",
+        "female": 0.532,
         "tuition_in_state": 7651,
         "tuition_out_state": 21396,
         "enrollment": 23922
@@ -4359,7 +4359,7 @@
         "endowment": null,
         "median_salary": null,
         "student_faculty": null,
-        "female": "55.8%",
+        "female": 0.5579999999999999,
         "tuition_in_state": 7438,
         "tuition_out_state": 17230,
         "enrollment": 27560
@@ -4374,7 +4374,7 @@
         "endowment": 133.9,
         "median_salary": 46000,
         "student_faculty": 23,
-        "female": "50.1%",
+        "female": 0.501,
         "tuition_in_state": 9380,
         "tuition_out_state": 23379,
         "enrollment": 28959
@@ -4389,7 +4389,7 @@
         "endowment": 71.6,
         "median_salary": null,
         "student_faculty": 13,
-        "female": "55.3%",
+        "female": 0.5529999999999999,
         "tuition_in_state": 23000,
         "tuition_out_state": 23000,
         "enrollment": 7693
@@ -4404,7 +4404,7 @@
         "endowment": 267.8,
         "median_salary": 48200,
         "student_faculty": 21,
-        "female": "51.7%",
+        "female": 0.517,
         "tuition_in_state": 9240,
         "tuition_out_state": 18578,
         "enrollment": 20648
@@ -4419,7 +4419,7 @@
         "endowment": 49.9,
         "median_salary": 40400,
         "student_faculty": 22,
-        "female": "57.1%",
+        "female": 0.5710000000000001,
         "tuition_in_state": 6360,
         "tuition_out_state": 18628,
         "enrollment": 13002
@@ -4434,7 +4434,7 @@
         "endowment": 27.9,
         "median_salary": 43100,
         "student_faculty": 21,
-        "female": "63.6%",
+        "female": 0.636,
         "tuition_in_state": 7188,
         "tuition_out_state": 20406,
         "enrollment": 13308
@@ -4449,7 +4449,7 @@
         "endowment": 112.1,
         "median_salary": 46200,
         "student_faculty": 19,
-        "female": "51.2%",
+        "female": 0.512,
         "tuition_in_state": 9493,
         "tuition_out_state": 19851,
         "enrollment": 26011
@@ -4464,7 +4464,7 @@
         "endowment": 39.4,
         "median_salary": 38300,
         "student_faculty": 20,
-        "female": "60.2%",
+        "female": 0.602,
         "tuition_in_state": 6410,
         "tuition_out_state": 17196,
         "enrollment": 11375
@@ -4479,7 +4479,7 @@
         "endowment": 229.3,
         "median_salary": 45100,
         "student_faculty": 19,
-        "female": "53.2%",
+        "female": 0.532,
         "tuition_in_state": 8312,
         "tuition_out_state": 17270,
         "enrollment": 14474
@@ -4494,7 +4494,7 @@
         "endowment": 122.6,
         "median_salary": 46700,
         "student_faculty": 17,
-        "female": "51.6%",
+        "female": 0.516,
         "tuition_in_state": 8730,
         "tuition_out_state": 17350,
         "enrollment": 16655
@@ -4509,7 +4509,7 @@
         "endowment": null,
         "median_salary": null,
         "student_faculty": 12,
-        "female": "50.7%",
+        "female": 0.507,
         "tuition_in_state": 17510,
         "tuition_out_state": 17510,
         "enrollment": 4145
@@ -4584,7 +4584,7 @@
         "endowment": null,
         "median_salary": null,
         "student_faculty": null,
-        "female": "65.4%",
+        "female": 0.654,
         "tuition_in_state": 10368,
         "tuition_out_state": 10368,
         "enrollment": 10916
@@ -4659,7 +4659,7 @@
         "endowment": 73.9,
         "median_salary": 41200,
         "student_faculty": 13,
-        "female": "64.6%",
+        "female": 0.6459999999999999,
         "tuition_in_state": 10940,
         "tuition_out_state": 10940,
         "enrollment": 15240

@@ -38,7 +38,6 @@ def get_national_university_data(univ_url):
 
     endowment = info_list[5].find('span', attrs={'class': 'heading-small'}).text
     endowment = endowment.replace('$', '').replace(' +', '').strip()
-    print(endowment)
     if endowment == 'N/A':
         endowment = None
     else:
@@ -66,6 +65,10 @@ def get_national_university_data(univ_url):
     else:
         tuition_in_state = int(tuition_in_state.replace('$', '').replace(',', ''))
 
+    female = gender_chunk.text if gender_chunk is not None else None
+    if female is not None:
+        female = float(female.replace('%', '')) / 100
+
     univ_dict = dict(name=soup.find('h1', attrs={'class': 'hero-heading'}).text.strip().replace('1', ''),
                      ranking=soup.find('strong').text.strip().split()[0].replace("#", "").replace('-', ' - '),
                      state=address.rsplit(', ', 1)[1],
@@ -75,7 +78,7 @@ def get_national_university_data(univ_url):
                      endowment=endowment,
                      median_salary=median_salary,
                      student_faculty=student_faculty,
-                     female=gender_chunk.text if gender_chunk is not None else None,
+                     female=female,
                      tuition_in_state=tuition_in_state)
 
     if univ_dict['type'] == 'Public':
@@ -98,7 +101,6 @@ def get_national_university_data(univ_url):
     univ_dict.update(dict(tuition_out_state=tuition_out_state,
                           enrollment=enrollment))
 
-    print(json.dumps(univ_dict, indent=4))
     return univ_dict
 
 
@@ -133,7 +135,7 @@ def get_all_national_university():
         save_cache(data_list, f_name)
     else:
         print('Get National University Info from Cache File...')
-    
+
     nu_obj_list = [NationalUniversity(data_dict=data_dict) for data_dict in data_list]
     return nu_obj_list
 
@@ -155,8 +157,8 @@ def national_university_table():
                               ('TuitionAndFeesOutOfState', 'INT'),
                               ('Enrollment', 'INT'),
                               ('MedianStartingSalary', 'INT'),
-                              ('StudentFacultyRatio', 'TEXT'),
-                              ('FemalePencentage', 'TEXT'),
+                              ('StudentFacultyRatio', 'INT'),
+                              ('FemalePencentage', 'REAL'),
                               ('Latitude', 'INT'),
                               ('Longitude', 'INT')],
                       key='ID')

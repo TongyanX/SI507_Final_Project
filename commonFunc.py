@@ -75,3 +75,18 @@ def insert_data(data_list, t_name):
     con.commit()
     cur.close()
     con.close()
+
+
+def check_table(t_name):
+    """Check If a Table Exists"""
+    # Database Connection
+    con = sqlite3.connect(db_name)
+    cur = con.cursor()
+
+    statement = 'SELECT name FROM sqlite_master WHERE type = \'table\' AND name = \'{}\''.format(t_name)
+    cur.execute(statement)
+
+    if cur.fetchone() is not None:
+        return True
+    else:
+        return False
