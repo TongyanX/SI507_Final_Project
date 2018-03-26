@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>US National University Data</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <style>
+        body {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+        .title-chunk {
+            background-color: #1E1F26;
+            color: #FFFFFF;
+            text-valign: middle
+        }
+        .content-chunk {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+        .foot-chunk {
+            background-color: #1E1F26
+        }
+        .table-table {
+            height: 150px
+        }
+        .table-plot {
+            height: 390px
+        }
+        .table-empty-row {
+            height: 10px
+        }
+        .table-info {
+            text-align: center;
+            width: 240px;
+            background-color: #283655
+        }
+        .table-content {
+            text-align: left;
+            width: 800px;
+            background-color: #D0E1F9;
+            padding-left: 30px;
+            padding-right: 30px
+        }
+        .table-empty-col {
+            width: 10px
+        }
+        .link-to-content {
+            font-size: 30px;
+            color: #FFFFFF
+        }
+        .table-content-head {
+            font-size: 20px;
+            height: 40px
+        }
+        .table-content-list-1 {
+            font-size: 20px;
+            height: 40px
+        }
+        .table-content-list-2 {
+            font-size: 20px;
+            height: 30px
+        }
+        .table-content-detail {
+            font-size: 16px;
+            padding-left: 60px;
+            height: 24px
+        }
+        .foot {
+            color: #FFFFFF;
+            font-size: 20px;
+            text-align: right
+        }
+        img {
+            height: 550px;
+            width: 280px
+        }
+    </style>
+</head>
+<body>
+    <div class="row title-chunk">
+        <div class="col-md-9">
+            <h1>&nbsp&nbspUS National University Data</h1>
+            <br>
+        </div>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div class="row content-chunk">
+        <div class="col-md-9">
+            <table>
+                <tbody>
+                    <tr class="table-table">
+                        <td class="table-info">
+                            <a href="/table" class="link-to-content"><strong>Table</strong></a>
+                        </td>
+                        <td class="table-empty-col"></td>
+                        <td class="table-content">
+                            <div>
+                                <p class="table-content-head">
+                                    <strong>Draw HTML Tables to Show Data</strong>
+                                </p>
+                                <li class="table-content-list-1">
+                                    A list of National Universities of a given state or several states.
+                                </li>
+                                <li class="table-content-list-1">
+                                    A list of GDP data of a given state or several states.
+                                </li>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-empty-row"></tr>
+                    <tr class="table-plot">
+                        <td class="table-info">
+                            <a href="/plot" class="link-to-content"><strong>Plot</strong></a>
+                        </td>
+                        <td class="table-empty-col"></td>
+                        <td class="table-content">
+                            <div>
+                                <p class="table-content-head">
+                                    <strong>Use Plotly API to Show Data</strong>
+                                    <span> -- Need to Redirect to Plotly Pages</span>
+                                </p>
+                                <li class="table-content-list-2">
+                                    Amount of National Universities in each state.
+                                </li>
+                                <p class="table-content-detail">
+                                    X - Axis: State, Y - Axis: Number of National Universities
+                                </p>
+                                <li class="table-content-list-2">
+                                    Relationship between National University amount and GDP.
+                                </li>
+                                <p class="table-content-detail">
+                                    X - Axis: Number of National Universities, Y - Axis: GDP of State
+                                </p>
+                                <li class="table-content-list-2">
+                                    Difference between public and private National Universities.
+                                </li>
+                                <p class="table-content-detail">
+                                    X - Axis: Enrollment, Y - Axis: Median Starting Salary
+                                </p>
+                                <li class="table-content-list-2">
+                                    GDP data trend of a given state or several states.
+                                </li>
+                                <p class="table-content-detail">
+                                    X - Axis: Year, Y - Axis: GDP of State
+                                </p>
+                                <li class="table-content-list-2">
+                                    Location of National Universities in a given state.
+                                </li>
+                                <p class="table-content-detail">
+                                    X - Axis: Longitude, Y - Axis: Latitude
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-3">
+            <img src="http://collegevibe.com/wp-content/uploads/2013/10/University-of-Michigan-Burton-Memorial-Tower.jpg"/>
+        </div>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div class="row foot-chunk">
+        <div class="foot">
+            <p></p>
+            <p>SI 507 Final Project&nbsp&nbsp一&nbsp&nbspMade by Tongyan Xu&nbsp&nbsp</p>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+</html>
