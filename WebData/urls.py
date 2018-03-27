@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^table/univ/$', views.table_univ, name='table_univ'),
     url(r'^table/gdp/$', views.table_gdp, name='table_gdp'),
     url(r'^plot/$', views.plot, name='plot'),
+
     url(r'^univ/$', dataAJAX.state_univ, name='state_univ'),
     url(r'^gdp/$', dataAJAX.state_gdp, name='state_gdp'),
+    url(r'^plot/scatter-pp/$', dataAJAX.scatter_pp, name='scatter_pp'),
 ]

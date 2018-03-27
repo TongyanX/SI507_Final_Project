@@ -21,9 +21,18 @@
             height: 90px
         }
         .content-chunk {
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
             height: 586px
+        }
+        .table-empty-row {
+            height: 30px
+        }
+        .table-empty-col {
+            width: 30px
+        }
+        .table-empty-col-2 {
+            width: 5px
         }
         .foot-chunk {
             background-color: #1E1F26;
@@ -34,6 +43,77 @@
             font-size: 20px;
             text-align: right
         }
+        .plot-unit {
+            width: 380px;
+            height: 250px;
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: #283655
+        }
+        .plot-unit-bg {
+            background-color: #283655
+        }
+        img {
+            height: 240px;
+            width: 240px
+        }
+        .plot-content {
+            width: 125px;
+            height: 240px;
+            background-color: #FFFFFF
+        }
+        .type {
+            width: 125px;
+            text-align: center;
+            font-size: 20px
+        }
+        .text {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 125px;
+            height: 150px;
+            text-align: left;
+            font-size: 10px
+        }
+        .button-chunk {
+            width: 125px;
+            height: 30px;
+            text-align: center
+        }
+        .button-user {
+            text-align: center;
+            width: 80px;
+            height: 30px;
+            background-color: #283655;
+            font-size: 15px;
+            color: #FFFFFF
+        }
+        .hidden-chunk {
+            display: none;
+            position: absolute;
+            top: 160px;
+            left: 490px;
+            width: 300px;
+            height: 400px;
+            padding: 20px;
+            border: 10px double #283655;
+            background-color: white;
+            z-index: 10;
+            overflow: auto;
+        }
+        .button-chunk-2 {
+            width: 300px;
+            height: 40px;
+            text-align: center
+        }
+        .button-user-2 {
+            text-align: center;
+            width: 80px;
+            height: 40px;
+            background-color: #283655;
+            font-size: 20px;
+            color: #FFFFFF
+        }
     </style>
 </head>
 <body>
@@ -42,9 +122,263 @@
             <h1>&nbsp&nbspPlot - US National University Data</h1>
             <br>
         </div>
+        <div class="col-md-3" align="right">
+            <br><br><br>
+            <a href="/index" style="color: #FFFFFF; font-size: 20px">Back</a>
+        </div>
     </div>
+
     <div class="row content-chunk">
+        <div><br></div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="plot-unit">
+                        <table>
+                            <tbody>
+                                <tr class="plot-unit-bg">
+                                    <td>
+                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                    </td>
+                                    <td class="table-empty-col-2"></td>
+                                    <td>
+                                        <div class="plot-content">
+                                            <p class="type"><strong>Bar plot</strong></p>
+                                            <p class="text">State University</p>
+                                            <div class="button-chunk">
+                                                <button class="button-user" onclick="bar()">Plot</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="table-empty-col"></td>
+                    <td class="plot-unit">
+                        <table>
+                            <tbody>
+                                <tr class="plot-unit-bg">
+                                    <td>
+                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                    </td>
+                                    <td class="table-empty-col-2"></td>
+                                    <td>
+                                        <div class="plot-content">
+                                            <p class="type"><strong>Line plot</strong></p>
+                                            <p class="text">State GDP</p>
+                                            <div class="button-chunk">
+                                                <button class="button-user" onclick="line()">Plot</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="table-empty-col"></td>
+                    <td class="plot-unit">
+                        <table>
+                            <tbody>
+                                <tr class="plot-unit-bg">
+                                    <td>
+                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                    </td>
+                                    <td class="table-empty-col-2"></td>
+                                    <td>
+                                        <div class="plot-content">
+                                            <p class="type"><strong>Histogram</strong></p>
+                                            <p class="text">Discrimination of Tuition and Fees</p>
+                                            <div class="button-chunk">
+                                                <button class="button-user" onclick="histogram_plot()">Plot</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="table-empty-row"></tr>
+                <tr>
+                    <td class="plot-unit">
+                        <table>
+                            <tbody>
+                                <tr class="plot-unit-bg">
+                                    <td>
+                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                    </td>
+                                    <td class="table-empty-col-2"></td>
+                                    <td>
+                                        <div class="plot-content">
+                                            <p class="type"><strong>Scatter plot</strong></p>
+                                            <p class="text">University vs GDP</p>
+                                            <div class="button-chunk">
+                                                <button class="button-user" onclick="scatter_ug()">Plot</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="table-empty-col"></td>
+                    <td class="plot-unit">
+                        <table>
+                            <tbody>
+                                <tr class="plot-unit-bg">
+                                    <td>
+                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                    </td>
+                                    <td class="table-empty-col-2"></td>
+                                    <td>
+                                        <div class="plot-content">
+                                            <p class="type"><strong>Scatter plot</strong></p>
+                                            <p class="text">Public vs Private</p>
+                                            <div class="button-chunk">
+                                                <button class="button-user" onclick="scatter_pp()">Plot</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="table-empty-col"></td>
+                    <td class="plot-unit">
+                        <table>
+                            <tbody>
+                                <tr class="plot-unit-bg">
+                                    <td>
+                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                    </td>
+                                    <td class="table-empty-col-2"></td>
+                                    <td>
+                                        <div class="plot-content">
+                                            <p class="type"><strong>Map plot</strong></p>
+                                            <p class="text">University Location</p>
+                                            <div class="button-chunk">
+                                                <button class="button-user" onclick="map()">Plot</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="hidden-chunk" id="hidden-bar">
+            <h1 align="center">Scatter Plot</h1>
+            <h3 align="center">Public vs Private</h3>
+            <br>
+            <div align="center">
+                <p>Top ? States</p>
+                <select id="limit">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <br><br><br>
+                <button class="button-user-2" onclick="bar_plot()">Plot</button>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <button class="button-user-2" onclick="bar_cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div class="hidden-chunk" id="hidden-line">
+            <h1 align="center">Scatter Plot</h1>
+            <h3 align="center">Public vs Private</h3>
+            <br>
+            <div align="center">
+
+                <br><br><br>
+                <button class="button-user-2" onclick="line_plot()">Plot</button>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <button class="button-user-2" onclick="line_cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div class="hidden-chunk" id="hidden-scatter-ug">
+            <h1 align="center">Scatter Plot</h1>
+            <h3 align="center">Public vs Private</h3>
+            <br>
+            <div align="center">
+                <p>Additional Parameter</p>
+                <select id="add_para">
+                    <option value="Default">Default</option>
+                    <option value="Enrollment">Enrollment</option>
+                    <option value="MedianStartingSalary">Median Starting Salary</option>
+                    <option value="FoundYear">Found Year</option>
+                    <option value="Endowment(M)">Endowment</option>
+                    <option value="StudentFacultyRatio">Student Faculty Ratio</option>
+                    <option value="FemalePercentage">Female Percentage</option>
+                    <option value="TuitionAndFeesInState">Tuition and Fees in State</option>
+                    <option value="TuitionAndFeesOutOfState">Tuition and Fees out of State</option>
+                    <option value="Tuition Difference">Tuition Difference</option>
+                </select>
+                <br><br><br><br><br>
+                <button class="button-user-2" onclick="scatter_ug_plot()">Plot</button>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <button class="button-user-2" onclick="scatter_ug_cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div class="hidden-chunk" id="hidden-scatter-pp">
+            <h1 align="center">Scatter Plot</h1>
+            <h3 align="center">Public vs Private</h3>
+            <br>
+            <div align="center">
+                <p>X - Axis</p>
+                <select id="x">
+                    <option value="Default">Default</option>
+                    <option value="Enrollment">Enrollment</option>
+                    <option value="MedianStartingSalary">Median Starting Salary</option>
+                    <option value="FoundYear">Found Year</option>
+                    <option value="Endowment(M)">Endowment</option>
+                    <option value="StudentFacultyRatio">Student Faculty Ratio</option>
+                    <option value="FemalePercentage">Female Percentage</option>
+                    <option value="TuitionAndFeesInState">Tuition and Fees in State</option>
+                    <option value="TuitionAndFeesOutOfState">Tuition and Fees out of State</option>
+                    <option value="Tuition Difference">Tuition Difference</option>
+                </select>
+                <br><br>
+                <p>Y - Axis</p>
+                <select id="y">
+                    <option value="Default">Default</option>
+                    <option value="Enrollment">Enrollment</option>
+                    <option value="MedianStartingSalary">Median Starting Salary</option>
+                    <option value="FoundYear">Found Year</option>
+                    <option value="Endowment(M)">Endowment</option>
+                    <option value="StudentFacultyRatio">Student Faculty Ratio</option>
+                    <option value="FemalePercentage">Female Percentage</option>
+                    <option value="TuitionAndFeesInState">Tuition and Fees in State</option>
+                    <option value="TuitionAndFeesOutOfState">Tuition and Fees out of State</option>
+                    <option value="Tuition Difference">Tuition Difference</option>
+                </select>
+                <br><br><br>
+                <button class="button-user-2" onclick="scatter_pp_plot()">Plot</button>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <button class="button-user-2" onclick="scatter_pp_cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div class="hidden-chunk" id="hidden-map">
+            <h1 align="center">Scatter Plot</h1>
+            <h3 align="center">Public vs Private</h3>
+            <br>
+            <div align="center">
+
+                <br><br><br>
+                <button class="button-user-2" onclick="map_plot()">Plot</button>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <button class="button-user-2" onclick="map_cancel()">Cancel</button>
+            </div>
+        </div>
     </div>
+
     <div class="row foot-chunk">
         <div class="foot">
             <p></p>
@@ -53,5 +387,170 @@
     </div>
 </body>
 <script>
+    function bar(){
+        document.getElementById("hidden-bar").style.display="block";
+    };
+
+    function bar_cancel(){
+        document.getElementById("hidden-bar").style.display="none";
+    };
+
+    function line(){
+        document.getElementById("hidden-line").style.display="block";
+    };
+
+    function line_cancel(){
+        document.getElementById("hidden-line").style.display="none";
+    };
+
+    function scatter_ug(){
+        document.getElementById("hidden-scatter-ug").style.display="block";
+    };
+
+    function scatter_ug_cancel(){
+        document.getElementById("hidden-scatter-ug").style.display="none";
+    };
+
+    function scatter_pp(){
+        document.getElementById("hidden-scatter-pp").style.display="block";
+    };
+
+    function scatter_pp_cancel(){
+        document.getElementById("hidden-scatter-pp").style.display="none";
+    };
+
+    function map(){
+        document.getElementById("hidden-map").style.display="block";
+    };
+
+    function map_cancel(){
+        document.getElementById("hidden-map").style.display="none";
+    };
+
+    function bar_plot(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var cor = x + "," + y;
+
+        $.ajax({
+            url: "/plot/scatter-pp/",
+            type: "get",
+            data: "cor=" + cor,
+            dataType: "text",
+            success: function() {
+                alert("Plotted!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            },
+            fail: function() {
+                alert("Failed!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            }
+        });
+    };
+
+    function line_plot(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var cor = x + "," + y;
+
+        $.ajax({
+            url: "/plot/scatter-pp/",
+            type: "get",
+            data: "cor=" + cor,
+            dataType: "text",
+            success: function() {
+                alert("Plotted!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            },
+            fail: function() {
+                alert("Failed!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            }
+        });
+    };
+
+    function histogram_plot(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var cor = x + "," + y;
+
+        $.ajax({
+            url: "/plot/scatter-pp/",
+            type: "get",
+            data: "cor=" + cor,
+            dataType: "text",
+            success: function() {
+                alert("Plotted!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            },
+            fail: function() {
+                alert("Failed!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            }
+        });
+    };
+
+    function scatter_ug_plot(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var cor = x + "," + y;
+
+        $.ajax({
+            url: "/plot/scatter-pp/",
+            type: "get",
+            data: "cor=" + cor,
+            dataType: "text",
+            success: function() {
+                alert("Plotted!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            },
+            fail: function() {
+                alert("Failed!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            }
+        });
+    };
+
+    function scatter_pp_plot(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var cor = x + "," + y;
+
+        $.ajax({
+            url: "/plot/scatter-pp/",
+            type: "get",
+            data: "cor=" + cor,
+            dataType: "text",
+            success: function() {
+                alert("Plotted!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            },
+            fail: function() {
+                alert("Failed!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            }
+        });
+    };
+
+    function map_plot(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var cor = x + "," + y;
+
+        $.ajax({
+            url: "/plot/scatter-pp/",
+            type: "get",
+            data: "cor=" + cor,
+            dataType: "text",
+            success: function() {
+                alert("Plotted!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            },
+            fail: function() {
+                alert("Failed!");
+                document.getElementById("hidden-scatter-pp").style.display="none";
+            }
+        });
+    };
 </script>
 </html>

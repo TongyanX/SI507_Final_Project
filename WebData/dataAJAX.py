@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 
 from django.http import HttpResponse
 from Database.dbOperation import Database
+from BaseScripts.plotFunc import scatter_public_private
 import json
 
 
@@ -69,3 +70,12 @@ def state_gdp(request):
         output.append(result)
     print(json.dumps(output, indent=4))
     return HttpResponse(json.dumps(output))
+
+
+def scatter_pp(request):
+    """Plot"""
+    cor = request.GET['cor']
+    x_axis = cor.split(',')[0]
+    y_axis = cor.split(',')[1]
+    scatter_public_private(x_axis=x_axis, y_axis=y_axis)
+    return HttpResponse("OK")
