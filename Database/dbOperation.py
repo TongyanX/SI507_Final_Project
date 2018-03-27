@@ -72,11 +72,11 @@ class Database(object):
     def get_university_count(self, limit=20):
         """List States with Most National Universities"""
         statement = '''
-                        SELECT StateName, COUNT(n.*) FROM National_University AS n 
+                        SELECT StateName, COUNT(n.ID) FROM National_University AS n 
                         JOIN State_Abbr AS s 
                             ON n.State = s.StateAbbr 
                         GROUP BY State 
-                        ORDER BY COUNT(*) DESC 
+                        ORDER BY COUNT(n.ID) DESC 
                         LIMIT {}
                     '''.format(limit)
         self.cur.execute(statement)

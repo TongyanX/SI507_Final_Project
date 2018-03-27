@@ -33,13 +33,13 @@ def bar_state_univ(limit=20):
         print('Account limit reached')
 
 
-def scatter_university_gdp(input_phrase='Total Endowment'):
+def scatter_university_gdp(input_phrase='Total Endowment (Million)'):
     """Scatter Plot - Relationship between GDP & National University Amount"""
     input_range = ['Total Endowment (Million)', 'Average Endowment (Million)', 'Total Enrollment', 'Average Enrollment',
                    'Average Tuition in State', 'Average Tuition out of State', 'Average Median Starting Salary',
                    'Average Student Faculty Ratio', 'Average Female Percentage']
     if input_phrase not in input_range:
-        input_phrase = 'Total Endowment'
+        input_phrase = 'Total Endowment (Million)'
 
     db_operator = Database()
     result_list = db_operator.get_university_gdp(additional_variable=input_phrase)
@@ -132,9 +132,9 @@ def scatter_public_private(x_axis='Enrollment', y_axis='MedianStartingSalary'):
 
 def line_gdp(abbr_list):
     """Scatter Plot - GDP"""
-    if len(abbr_list) > 10:
-        print('Too Many States')
-        return
+    # if len(abbr_list) > 10:
+    #     print('Too Many States')
+    #     return
 
     db_operator = Database()
 
@@ -258,4 +258,4 @@ def histogram_difference_tuition():
 # scatter_public_private()
 # scatter_university_gdp()
 # mapbox_univ('CA')
-histogram_difference_tuition()
+# histogram_difference_tuition()

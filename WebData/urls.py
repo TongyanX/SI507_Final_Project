@@ -25,5 +25,10 @@ urlpatterns = [
 
     url(r'^univ/$', dataAJAX.state_univ, name='state_univ'),
     url(r'^gdp/$', dataAJAX.state_gdp, name='state_gdp'),
-    url(r'^plot/scatter-pp/$', dataAJAX.scatter_pp, name='scatter_pp'),
+    url(r'^plot/bar/$', dataAJAX.bar, name='bar'),
+    url(r'^plot/line/$', dataAJAX.line, name='line'),
+    url(r'^plot/histogram/$', dataAJAX.histogram, name='histogram'),
+    url(r'^plot/bubble/$', dataAJAX.bubble, name='bubble'),
+    url(r'^plot/scatter/$', dataAJAX.scatter, name='scatter'),
+    url(r'^plot/map/$', dataAJAX.mapbox, name='mapbox'),
 ]

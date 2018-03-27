@@ -88,7 +88,20 @@
             font-size: 15px;
             color: #FFFFFF
         }
-        .hidden-chunk {
+        .hidden-chunk-1 {
+            display: none;
+            position: absolute;
+            top: 180px;
+            left: 490px;
+            width: 300px;
+            height: 360px;
+            padding: 20px;
+            border: 10px double #283655;
+            background-color: white;
+            z-index: 10;
+            overflow: auto;
+        }
+        .hidden-chunk-2 {
             display: none;
             position: absolute;
             top: 160px;
@@ -100,6 +113,22 @@
             background-color: white;
             z-index: 10;
             overflow: auto;
+        }
+        .hidden-chunk-line {
+            display: none;
+            position: absolute;
+            top: 110px;
+            left: 20px;
+            width: 1240px;
+            height: 500px;
+            padding: 20px;
+            border: 10px double #283655;
+            background-color: white;
+            z-index: 10;
+            overflow: auto;
+        }
+        .input-chunk {
+            font-size: 10px;
         }
         .button-chunk-2 {
             width: 300px;
@@ -138,13 +167,18 @@
                             <tbody>
                                 <tr class="plot-unit-bg">
                                     <td>
-                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                        <img src="/static/img/bar.png"/>
                                     </td>
                                     <td class="table-empty-col-2"></td>
                                     <td>
                                         <div class="plot-content">
                                             <p class="type"><strong>Bar plot</strong></p>
-                                            <p class="text">State University</p>
+                                            <div class="text">
+                                                <p>State University</p>
+                                                <p>
+                                                    To see top 10, 15, 20 states with highest amount of national universities.
+                                                </p>
+                                            </div>
                                             <div class="button-chunk">
                                                 <button class="button-user" onclick="bar()">Plot</button>
                                             </div>
@@ -160,13 +194,18 @@
                             <tbody>
                                 <tr class="plot-unit-bg">
                                     <td>
-                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                        <img src="/static/img/line.png"/>
                                     </td>
                                     <td class="table-empty-col-2"></td>
                                     <td>
                                         <div class="plot-content">
                                             <p class="type"><strong>Line plot</strong></p>
-                                            <p class="text">State GDP</p>
+                                            <div class="text">
+                                                <p>State GDP</p>
+                                                <p>
+                                                    To see GDP time trends (from 1997 to 2016) of all your interested states together. Better within 20 states.
+                                                </p>
+                                            </div>
                                             <div class="button-chunk">
                                                 <button class="button-user" onclick="line()">Plot</button>
                                             </div>
@@ -182,13 +221,18 @@
                             <tbody>
                                 <tr class="plot-unit-bg">
                                     <td>
-                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                        <img src="/static/img/histo.png"/>
                                     </td>
                                     <td class="table-empty-col-2"></td>
                                     <td>
                                         <div class="plot-content">
                                             <p class="type"><strong>Histogram</strong></p>
-                                            <p class="text">Discrimination of Tuition and Fees</p>
+                                            <div class="text">
+                                                <p>Tuition Difference</p>
+                                                <p>
+                                                    To see discrimination of tuition and fees in public universities for in-state and out-of-state students.
+                                                </p>
+                                            </div>
                                             <div class="button-chunk">
                                                 <button class="button-user" onclick="histogram_plot()">Plot</button>
                                             </div>
@@ -206,15 +250,20 @@
                             <tbody>
                                 <tr class="plot-unit-bg">
                                     <td>
-                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                        <img src="/static/img/bubble.png"/>
                                     </td>
                                     <td class="table-empty-col-2"></td>
                                     <td>
                                         <div class="plot-content">
-                                            <p class="type"><strong>Scatter plot</strong></p>
-                                            <p class="text">University vs GDP</p>
+                                            <p class="type"><strong>Bubble plot</strong></p>
+                                            <div class="text">
+                                                <p>University vs GDP</p>
+                                                <p>
+                                                    To see relationship between university amount and GDP value. You can also add some other features.
+                                                </p>
+                                            </div>
                                             <div class="button-chunk">
-                                                <button class="button-user" onclick="scatter_ug()">Plot</button>
+                                                <button class="button-user" onclick="bubble()">Plot</button>
                                             </div>
                                         </div>
                                     </td>
@@ -228,15 +277,20 @@
                             <tbody>
                                 <tr class="plot-unit-bg">
                                     <td>
-                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                        <img src="/static/img/scatter.png"/>
                                     </td>
                                     <td class="table-empty-col-2"></td>
                                     <td>
                                         <div class="plot-content">
                                             <p class="type"><strong>Scatter plot</strong></p>
-                                            <p class="text">Public vs Private</p>
+                                            <div class="text">
+                                                <p>Public vs Private</p>
+                                                <p>
+                                                    To see differences between public and private universities. You can choose features whatever you like.
+                                                </p>
+                                            </div>
                                             <div class="button-chunk">
-                                                <button class="button-user" onclick="scatter_pp()">Plot</button>
+                                                <button class="button-user" onclick="scatter()">Plot</button>
                                             </div>
                                         </div>
                                     </td>
@@ -250,13 +304,18 @@
                             <tbody>
                                 <tr class="plot-unit-bg">
                                     <td>
-                                        <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                                        <img src="/static/img/map.png"/>
                                     </td>
                                     <td class="table-empty-col-2"></td>
                                     <td>
                                         <div class="plot-content">
                                             <p class="type"><strong>Map plot</strong></p>
-                                            <p class="text">University Location</p>
+                                            <div class="text">
+                                                <p>University Location</p>
+                                                <p>
+                                                    To see a map including all universities in your interested state (marked by blue dots).
+                                                </p>
+                                            </div>
                                             <div class="button-chunk">
                                                 <button class="button-user" onclick="map()">Plot</button>
                                             </div>
@@ -270,9 +329,9 @@
             </tbody>
         </table>
 
-        <div class="hidden-chunk" id="hidden-bar">
-            <h1 align="center">Scatter Plot</h1>
-            <h3 align="center">Public vs Private</h3>
+        <div class="hidden-chunk-1" id="hidden-bar">
+            <h1 align="center">Bar Plot</h1>
+            <h3 align="center">State University</h3>
             <br>
             <div align="center">
                 <p>Top ? States</p>
@@ -288,45 +347,216 @@
             </div>
         </div>
 
-        <div class="hidden-chunk" id="hidden-line">
-            <h1 align="center">Scatter Plot</h1>
-            <h3 align="center">Public vs Private</h3>
+        <div class="hidden-chunk-line" id="hidden-line">
+            <h1 align="center">Line Plot</h1>
+            <h3 align="center">State GDP</h3>
             <br>
             <div align="center">
-
-                <br><br><br>
+                <div class="input-chunk">
+                    <div class="input-content" align="left">
+                        <div class="col-md-2">
+                            <input id="AL" name="state" type="checkbox">
+                            <label for="AL">Alabama (AL)</label>
+                            <br>
+                            <input id="CT" name="state" type="checkbox">
+                            <label for="CT">Connecticut (CT)</label>
+                            <br>
+                            <input id="ID" name="state" type="checkbox">
+                            <label for="ID">Idaho (ID)</label>
+                            <br>
+                            <input id="LA" name="state" type="checkbox">
+                            <label for="LA">Louisiana (LA)</label>
+                            <br>
+                            <input id="MS" name="state" type="checkbox">
+                            <label for="MS">Mississippi (MS)</label>
+                            <br>
+                            <input id="NJ" name="state" type="checkbox">
+                            <label for="NJ">New Jersey (NJ)</label>
+                            <br>
+                            <input id="OK" name="state" type="checkbox">
+                            <label for="OK">Oklahoma (OK)</label>
+                            <br>
+                            <input id="TN" name="state" type="checkbox">
+                            <label for="TN">Tennessee (TN)</label>
+                            <br>
+                            <input id="WV" name="state" type="checkbox">
+                            <label for="WV">West Virginia (WV)</label>
+                            <br>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="AK" name="state" type="checkbox">
+                            <label for="AK">Alaska (AK)</label>
+                            <br>
+                            <input id="DE" name="state" type="checkbox">
+                            <label for="DE">Delaware (DE)</label>
+                            <br>
+                            <input id="IL" name="state" type="checkbox">
+                            <label for="IL">Illinois (IL)</label>
+                            <br>
+                            <input id="ME" name="state" type="checkbox">
+                            <label for="ME">Maine (ME)</label>
+                            <br>
+                            <input id="MO" name="state" type="checkbox">
+                            <label for="MO">Missouri (MO)</label>
+                            <br>
+                            <input id="NM" name="state" type="checkbox">
+                            <label for="NM">New Mexico (NM)</label>
+                            <br>
+                            <input id="OR" name="state" type="checkbox">
+                            <label for="OR">Oregon (OR)</label>
+                            <br>
+                            <input id="TX" name="state" type="checkbox">
+                            <label for="TX">Texas (TX)</label>
+                            <br>
+                            <input id="WI" name="state" type="checkbox">
+                            <label for="WI">Wisconsin (WI)</label>
+                            <br>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="AZ" name="state" type="checkbox">
+                            <label for="AZ">Arizona (AZ)</label>
+                            <br>
+                            <input id="DC" name="state" type="checkbox">
+                            <label for="DC">District of Columbia (DC)</label>
+                            <br>
+                            <input id="IN" name="state" type="checkbox">
+                            <label for="IN">Indiana (IN)</label>
+                            <br>
+                            <input id="MD" name="state" type="checkbox">
+                            <label for="MD">Maryland (MD)</label>
+                            <br>
+                            <input id="MT" name="state" type="checkbox">
+                            <label for="MT">Montana (MT)</label>
+                            <br>
+                            <input id="NY" name="state" type="checkbox">
+                            <label for="NY">New York (NY)</label>
+                            <br>
+                            <input id="PA" name="state" type="checkbox">
+                            <label for="PA">Pennsylvania (PA)</label>
+                            <br>
+                            <input id="UT" name="state" type="checkbox">
+                            <label for="UT">Utah (UT)</label>
+                            <br>
+                            <input id="WY" name="state" type="checkbox">
+                            <label for="WY">Wyoming (WY)</label>
+                            <br>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="AR" name="state" type="checkbox">
+                            <label for="AR">Arkansas (AR)</label>
+                            <br>
+                            <input id="FL" name="state" type="checkbox">
+                            <label for="FL">Florida (FL)</label>
+                            <br>
+                            <input id="IA" name="state" type="checkbox">
+                            <label for="IA">Iowa (IA)</label>
+                            <br>
+                            <input id="MA" name="state" type="checkbox">
+                            <label for="MA">Massachusetts (MA)</label>
+                            <br>
+                            <input id="NE" name="state" type="checkbox">
+                            <label for="NE">Nebraska (NE)</label>
+                            <br>
+                            <input id="NC" name="state" type="checkbox">
+                            <label for="NC">North Carolina (NC)</label>
+                            <br>
+                            <input id="RI" name="state" type="checkbox">
+                            <label for="RI">Rhode Island (RI)</label>
+                            <br>
+                            <input id="VT" name="state" type="checkbox">
+                            <label for="VT">Vermont (VT)</label>
+                            <br>
+                            <input id="ALL" name="ALL" type="checkbox">
+                            <label for="ALL">Select All</label>
+                            <br>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="CA" name="state" type="checkbox">
+                            <label for="CA">California (CA)</label>
+                            <br>
+                            <input id="GA" name="state" type="checkbox">
+                            <label for="GA">Georgia (GA)</label>
+                            <br>
+                            <input id="KS" name="state" type="checkbox">
+                            <label for="KS">Kansas (KS)</label>
+                            <br>
+                            <input id="MI" name="state" type="checkbox">
+                            <label for="MI">Michigan (MI)</label>
+                            <br>
+                            <input id="NV" name="state" type="checkbox">
+                            <label for="NV">Nevada (NV)</label>
+                            <br>
+                            <input id="ND" name="state" type="checkbox">
+                            <label for="ND">North Dakota (ND)</label>
+                            <br>
+                            <input id="SC" name="state" type="checkbox">
+                            <label for="SC">South Carolina (SC)</label>
+                            <br>
+                            <input id="VA" name="state" type="checkbox">
+                            <label for="VA">Virginia (VA)</label>
+                            <br>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="CO" name="state" type="checkbox">
+                            <label for="CO">Colorado (CO)</label>
+                            <br>
+                            <input id="HI" name="state" type="checkbox">
+                            <label for="HI">Hawaii (HI)</label>
+                            <br>
+                            <input id="KY" name="state" type="checkbox">
+                            <label for="KY">Kentucky (KY)</label>
+                            <br>
+                            <input id="MN" name="state" type="checkbox">
+                            <label for="MN">Minnesota (MN)</label>
+                            <br>
+                            <input id="NH" name="state" type="checkbox">
+                            <label for="NH">New Hampshire (NH)</label>
+                            <br>
+                            <input id="OH" name="state" type="checkbox">
+                            <label for="OH">Ohio (OH)</label>
+                            <br>
+                            <input id="SD" name="state" type="checkbox">
+                            <label for="SD">South Dakota (SD)</label>
+                            <br>
+                            <input id="WA" name="state" type="checkbox">
+                            <label for="WA">Washington (WA)</label>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
                 <button class="button-user-2" onclick="line_plot()">Plot</button>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                 <button class="button-user-2" onclick="line_cancel()">Cancel</button>
             </div>
         </div>
 
-        <div class="hidden-chunk" id="hidden-scatter-ug">
+        <div class="hidden-chunk-1" id="hidden-bubble">
             <h1 align="center">Scatter Plot</h1>
-            <h3 align="center">Public vs Private</h3>
+            <h3 align="center">University vs GDP</h3>
             <br>
             <div align="center">
                 <p>Additional Parameter</p>
-                <select id="add_para">
+                <select id="add_param">
                     <option value="Default">Default</option>
-                    <option value="Enrollment">Enrollment</option>
-                    <option value="MedianStartingSalary">Median Starting Salary</option>
-                    <option value="FoundYear">Found Year</option>
-                    <option value="Endowment(M)">Endowment</option>
-                    <option value="StudentFacultyRatio">Student Faculty Ratio</option>
-                    <option value="FemalePercentage">Female Percentage</option>
-                    <option value="TuitionAndFeesInState">Tuition and Fees in State</option>
-                    <option value="TuitionAndFeesOutOfState">Tuition and Fees out of State</option>
-                    <option value="Tuition Difference">Tuition Difference</option>
+                    <option value="Total Endowment (Million)">Total Endowment</option>
+                    <option value="Average Endowment (Million)">Average Endowment</option>
+                    <option value="Total Enrollment">Total Enrollment</option>
+                    <option value="Average Enrollment">Average Enrollment</option>
+                    <option value="Average Tuition in State">Average Tuition in State</option>
+                    <option value="Average Tuition out of State">Average Tuition out of State</option>
+                    <option value="Average Median Starting Salary">Average Median Starting Salary</option>
+                    <option value="Average Student Faculty Ratio">Average Student Faculty Ratio</option>
+                    <option value="Average Female Percentage">Average Female Percentage</option>
                 </select>
-                <br><br><br><br><br>
-                <button class="button-user-2" onclick="scatter_ug_plot()">Plot</button>
+                <br><br><br><br>
+                <button class="button-user-2" onclick="bubble_plot()">Plot</button>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <button class="button-user-2" onclick="scatter_ug_cancel()">Cancel</button>
+                <button class="button-user-2" onclick="bubble_cancel()">Cancel</button>
             </div>
         </div>
 
-        <div class="hidden-chunk" id="hidden-scatter-pp">
+        <div class="hidden-chunk-2" id="hidden-scatter">
             <h1 align="center">Scatter Plot</h1>
             <h3 align="center">Public vs Private</h3>
             <br>
@@ -359,18 +589,71 @@
                     <option value="Tuition Difference">Tuition Difference</option>
                 </select>
                 <br><br><br>
-                <button class="button-user-2" onclick="scatter_pp_plot()">Plot</button>
+                <button class="button-user-2" onclick="scatter_plot()">Plot</button>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <button class="button-user-2" onclick="scatter_pp_cancel()">Cancel</button>
+                <button class="button-user-2" onclick="scatter_cancel()">Cancel</button>
             </div>
         </div>
 
-        <div class="hidden-chunk" id="hidden-map">
-            <h1 align="center">Scatter Plot</h1>
-            <h3 align="center">Public vs Private</h3>
+        <div class="hidden-chunk-1" id="hidden-map">
+            <h1 align="center">Map Plot</h1>
+            <h3 align="center">University Location</h3>
             <br>
             <div align="center">
-
+                <p>State</p>
+                <select id="state">
+                    <option value="AL">Alabama (AL)</option>
+                    <option value="AK">Alaska (AK)</option>
+                    <option value="AZ">Arizona (AZ)</option>
+                    <option value="AR">Arkansas (AR)</option>
+                    <option value="CA">California (CA)</option>
+                    <option value="CO">Colorado (CO)</option>
+                    <option value="CT">Connecticut (CT)</option>
+                    <option value="DE">Delaware (DE)</option>
+                    <option value="DC">District of Columbia (DC)</option>
+                    <option value="FL">Florida (FL)</option>
+                    <option value="GA">Georgia (GA)</option>
+                    <option value="HI">Hawaii (HI)</option>
+                    <option value="ID">Idaho (ID)</option>
+                    <option value="IL">Illinois (IL)</option>
+                    <option value="IN">Indiana (IN)</option>
+                    <option value="IA">Iowa (IA)</option>
+                    <option value="KS">Kansas (KS)</option>
+                    <option value="KY">Kentucky (KY)</option>
+                    <option value="LA">Louisiana (LA)</option>
+                    <option value="ME">Maine (ME)</option>
+                    <option value="MD">Maryland (MD)</option>
+                    <option value="MA">Massachusetts (MA)</option>
+                    <option value="MI">Michigan (MI)</option>
+                    <option value="MN">Minnesota (MN)</option>
+                    <option value="MS">Mississippi (MS)</option>
+                    <option value="MO">Missouri (MO)</option>
+                    <option value="MT">Montana (MT)</option>
+                    <option value="NE">Nebraska (NE)</option>
+                    <option value="NV">Nevada (NV)</option>
+                    <option value="NH">New Hampshire (NH)</option>
+                    <option value="NJ">New Jersey (NJ)</option>
+                    <option value="NM">New Mexico (NM)</option>
+                    <option value="NY">New York (NY)</option>
+                    <option value="NC">North Carolina (NC)</option>
+                    <option value="ND">North Dakota (ND)</option>
+                    <option value="OH">Ohio (OH)</option>
+                    <option value="OK">Oklahoma (OK)</option>
+                    <option value="OR">Oregon (OR)</option>
+                    <option value="PA">Pennsylvania (PA)</option>
+                    <option value="RI">Rhode Island (RI)</option>
+                    <option value="SC">South Carolina (SC)</option>
+                    <option value="SD">South Dakota (SD)</option>
+                    <option value="TN">Tennessee (TN)</option>
+                    <option value="TX">Texas (TX)</option>
+                    <option value="UT">Utah (UT)</option>
+                    <option value="VT">Vermont (VT)</option>
+                    <option value="VA">Virginia (VA)</option>
+                    <option value="WA">Washington (WA)</option>
+                    <option value="WV">West Virginia (WV)</option>
+                    <option value="WI">Wisconsin (WI)</option>
+                    <option value="WY">Wyoming (WY)</option>
+                </select>
                 <br><br><br>
                 <button class="button-user-2" onclick="map_plot()">Plot</button>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -387,6 +670,11 @@
     </div>
 </body>
 <script>
+    $("#ALL").click(function(){
+        var status = $(this).prop("checked");
+        var other = $("input[name='state']").prop("checked", status);  //让class名为qx的选项的选中状态和全选按钮的选中状态一致。
+    });
+
     function bar(){
         document.getElementById("hidden-bar").style.display="block";
     };
@@ -403,20 +691,20 @@
         document.getElementById("hidden-line").style.display="none";
     };
 
-    function scatter_ug(){
-        document.getElementById("hidden-scatter-ug").style.display="block";
+    function bubble(){
+        document.getElementById("hidden-bubble").style.display="block";
     };
 
-    function scatter_ug_cancel(){
-        document.getElementById("hidden-scatter-ug").style.display="none";
+    function bubble_cancel(){
+        document.getElementById("hidden-bubble").style.display="none";
     };
 
-    function scatter_pp(){
-        document.getElementById("hidden-scatter-pp").style.display="block";
+    function scatter(){
+        document.getElementById("hidden-scatter").style.display="block";
     };
 
-    function scatter_pp_cancel(){
-        document.getElementById("hidden-scatter-pp").style.display="none";
+    function scatter_cancel(){
+        document.getElementById("hidden-scatter").style.display="none";
     };
 
     function map(){
@@ -428,127 +716,116 @@
     };
 
     function bar_plot(){
-        var x = $("#x").val();
-        var y = $("#y").val();
-        var cor = x + "," + y;
+        var limit = $("#limit").val();
 
         $.ajax({
-            url: "/plot/scatter-pp/",
+            url: "/plot/bar/",
             type: "get",
-            data: "cor=" + cor,
+            data: "limit=" + limit,
             dataType: "text",
             success: function() {
                 alert("Plotted!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-bar").style.display="none";
             },
             fail: function() {
                 alert("Failed!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-bar").style.display="none";
             }
         });
     };
 
     function line_plot(){
-        var x = $("#x").val();
-        var y = $("#y").val();
-        var cor = x + "," + y;
+        var id_array = new Array();
+        $("input[name='state']:checked").each(function(){
+            id_array.push($(this).attr("id"));
+        });
+        var id_str = id_array.join(",");
 
         $.ajax({
-            url: "/plot/scatter-pp/",
+            url: "/plot/line/",
             type: "get",
-            data: "cor=" + cor,
+            data: "state_list=" + id_str,
             dataType: "text",
             success: function() {
                 alert("Plotted!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-line").style.display="none";
             },
             fail: function() {
                 alert("Failed!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-line").style.display="none";
             }
         });
     };
 
     function histogram_plot(){
-        var x = $("#x").val();
-        var y = $("#y").val();
-        var cor = x + "," + y;
-
         $.ajax({
-            url: "/plot/scatter-pp/",
+            url: "/plot/histogram/",
             type: "get",
-            data: "cor=" + cor,
             dataType: "text",
             success: function() {
                 alert("Plotted!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
             },
             fail: function() {
                 alert("Failed!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
             }
         });
     };
 
-    function scatter_ug_plot(){
-        var x = $("#x").val();
-        var y = $("#y").val();
-        var cor = x + "," + y;
+    function bubble_plot(){
+        var add_param = $("#add_param").val();
 
         $.ajax({
-            url: "/plot/scatter-pp/",
+            url: "/plot/bubble/",
             type: "get",
-            data: "cor=" + cor,
+            data: "add_param=" + add_param,
             dataType: "text",
             success: function() {
                 alert("Plotted!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-bubble").style.display="none";
             },
             fail: function() {
                 alert("Failed!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-bubble").style.display="none";
             }
         });
     };
 
-    function scatter_pp_plot(){
+    function scatter_plot(){
         var x = $("#x").val();
         var y = $("#y").val();
         var cor = x + "," + y;
 
         $.ajax({
-            url: "/plot/scatter-pp/",
+            url: "/plot/scatter/",
             type: "get",
             data: "cor=" + cor,
             dataType: "text",
             success: function() {
                 alert("Plotted!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-scatter").style.display="none";
             },
             fail: function() {
                 alert("Failed!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-scatter").style.display="none";
             }
         });
     };
 
     function map_plot(){
-        var x = $("#x").val();
-        var y = $("#y").val();
-        var cor = x + "," + y;
+        var state = $("#state").val();
 
         $.ajax({
-            url: "/plot/scatter-pp/",
+            url: "/plot/map/",
             type: "get",
-            data: "cor=" + cor,
+            data: "state=" + state,
             dataType: "text",
             success: function() {
                 alert("Plotted!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-map").style.display="none";
             },
             fail: function() {
                 alert("Failed!");
-                document.getElementById("hidden-scatter-pp").style.display="none";
+                document.getElementById("hidden-map").style.display="none";
             }
         });
     };

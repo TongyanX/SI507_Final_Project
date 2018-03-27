@@ -5,7 +5,8 @@ from __future__ import unicode_literals
 
 from django.http import HttpResponse
 from Database.dbOperation import Database
-from BaseScripts.plotFunc import scatter_public_private
+from BaseScripts.plotFunc import bar_state_univ, line_gdp, histogram_difference_tuition, \
+    scatter_university_gdp, scatter_public_private, mapbox_univ
 import json
 
 
@@ -39,7 +40,6 @@ def state_univ(request):
 def state_gdp(request):
     """Return A JSON Containing GDP Data."""
     state = request.GET['state']
-    print()
     state_list = state.split(',')
     output = []
     db_operator = Database()
@@ -68,14 +68,47 @@ def state_gdp(request):
                       Y2016=result[20]
                       )
         output.append(result)
-    print(json.dumps(output, indent=4))
     return HttpResponse(json.dumps(output))
 
 
-def scatter_pp(request):
+def bar(request):
+    """Plot"""
+    limit = int(request.GET['limit'])
+    bar_state_univ(limit=limit)
+    return HttpResponse("OK")
+
+
+def line(request):
+    """Plot"""
+    state_list = request.GET['state_list'].split(',')
+    line_gdp(abbr_list=state_list)
+    return HttpResponse("OK")
+
+
+def histogram(request):
+    """Plot"""
+    histogram_difference_tuition()
+    return HttpResponse("OK")
+
+
+def bubble(request):
+    """Plot"""
+    add_param = request.GET['add_param']
+    scatter_university_gdp(input_phrase=add_param)
+    return HttpResponse("OK")
+
+
+def scatter(request):
     """Plot"""
     cor = request.GET['cor']
     x_axis = cor.split(',')[0]
     y_axis = cor.split(',')[1]
     scatter_public_private(x_axis=x_axis, y_axis=y_axis)
+    return HttpResponse("OK")
+
+
+def mapbox(request):
+    """Plot"""
+    state = request.GET['state']
+    mapbox_univ(state_abbr=state)
     return HttpResponse("OK")
