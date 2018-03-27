@@ -13,6 +13,16 @@ def table(request):
     return render(request, "table.html")
 
 
+def table_univ(request):
+    """Table Page - University"""
+    return render(request, "table_univ.html")
+
+
+def table_gdp(request):
+    """Table Page - GDP"""
+    return render(request, "table_gdp.html")
+
+
 def plot(request):
     """Plot Page"""
     return render(request, "plot.html")

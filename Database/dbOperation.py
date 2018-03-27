@@ -149,3 +149,13 @@ class Database(object):
         result_list = self.cur.fetchall()
         result_list = [result[0] for result in result_list if result[0] is not None]
         return result_list
+
+    def get_state_univ(self, state_abbr):
+        """Get All National Universities within A State"""
+        statement = '''
+                        SELECT * FROM National_University 
+                        WHERE State = \'{}\' 
+                    '''.format(state_abbr)
+        self.cur.execute(statement)
+        result_list = self.cur.fetchall()
+        return result_list

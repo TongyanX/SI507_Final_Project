@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GDP Table - US National University Data</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+
+    <style>
+        body {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .title-chunk {
+            background-color: #1E1F26;
+            color: #FFFFFF;
+            height: 90px
+        }
+        .content-chunk {
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 586px
+        }
+        .foot-chunk {
+            background-color: #1E1F26;
+            height: 50px
+        }
+        .foot {
+            color: #FFFFFF;
+            font-size: 20px;
+            text-align: right
+        }
+        .input-title {
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: #283655;
+            height: 40px;
+            font-size: 24px
+        }
+        .input-chunk {
+            padding-left: 2px;
+            padding-right: 2px;
+            background-color: #283655;
+            width: 1220px;
+            height: 240px;
+            font-size: 10px;
+            display: none;
+            position: fixed;
+            z-index:10
+        }
+        .input-content {
+            background-color: #FFFFFF;
+            width: 1216px;
+            height: 208px
+        }
+        .button-chunk {
+            background-color: #FFFFFF;
+            width: 1216px;
+            height: 30px;
+            font-size: 10px;
+            text-align: right
+        }
+        .button-user {
+            background-color: #283655;
+            color: #FFFFFF;
+            font-size: 16px;
+            width: 200px
+        }
+        .table-chunk {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+        .table-head {
+            background-color: #283655;
+            color: #FFFFFF;
+            height: 8px;
+            font-size: 5px
+        }
+        table {
+            font-size: 5px
+        }
+    </style>
+</head>
+<body>
+    <div class="row title-chunk">
+        <div class="col-md-9">
+            <h1>&nbsp&nbspGDP Table - US National University Data</h1>
+        </div>
+        <div class="col-md-3" align="right">
+            <br><br><br>
+            <a href="/table" style="color: #FFFFFF; font-size: 20px">Back</a>
+        </div>
+    </div>
+    <div class="row content-chunk">
+        <div><br></div>
+        <div class="input-title">
+            <p><a href="#" style="color: #FFFFFF" id="hidden-bar" onclick="openShutManager(this, 'hidden-box', false,
+            'Click to hide state checkboxes', 'Click to show state checkboxes')">
+                Click to show state checkboxes
+            </a></p>
+        </div>
+        <div id="show"></div>
+        <div class="input-chunk" id="hidden-box" style="">
+            <div class="input-content">
+                <div class="col-md-2">
+                    <input id="AL" name="state" type="checkbox">
+                    <label for="AL">Alabama (AL)</label>
+                    <br>
+                    <input id="CT" name="state" type="checkbox">
+                    <label for="CT">Connecticut (CT)</label>
+                    <br>
+                    <input id="ID" name="state" type="checkbox">
+                    <label for="ID">Idaho (ID)</label>
+                    <br>
+                    <input id="LA" name="state" type="checkbox">
+                    <label for="LA">Louisiana (LA)</label>
+                    <br>
+                    <input id="MS" name="state" type="checkbox">
+                    <label for="MS">Mississippi (MS)</label>
+                    <br>
+                    <input id="NJ" name="state" type="checkbox">
+                    <label for="NJ">New Jersey (NJ)</label>
+                    <br>
+                    <input id="OK" name="state" type="checkbox">
+                    <label for="OK">Oklahoma (OK)</label>
+                    <br>
+                    <input id="TN" name="state" type="checkbox">
+                    <label for="TN">Tennessee (TN)</label>
+                    <br>
+                    <input id="WV" name="state" type="checkbox">
+                    <label for="WV">West Virginia (WV)</label>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <input id="AK" name="state" type="checkbox">
+                    <label for="AK">Alaska (AK)</label>
+                    <br>
+                    <input id="DE" name="state" type="checkbox">
+                    <label for="DE">Delaware (DE)</label>
+                    <br>
+                    <input id="IL" name="state" type="checkbox">
+                    <label for="IL">Illinois (IL)</label>
+                    <br>
+                    <input id="ME" name="state" type="checkbox">
+                    <label for="ME">Maine (ME)</label>
+                    <br>
+                    <input id="MO" name="state" type="checkbox">
+                    <label for="MO">Missouri (MO)</label>
+                    <br>
+                    <input id="NM" name="state" type="checkbox">
+                    <label for="NM">New Mexico (NM)</label>
+                    <br>
+                    <input id="OR" name="state" type="checkbox">
+                    <label for="OR">Oregon (OR)</label>
+                    <br>
+                    <input id="TX" name="state" type="checkbox">
+                    <label for="TX">Texas (TX)</label>
+                    <br>
+                    <input id="WI" name="state" type="checkbox">
+                    <label for="WI">Wisconsin (WI)</label>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <input id="AZ" name="state" type="checkbox">
+                    <label for="AZ">Arizona (AZ)</label>
+                    <br>
+                    <input id="DC" name="state" type="checkbox">
+                    <label for="DC">District of Columbia (DC)</label>
+                    <br>
+                    <input id="IN" name="state" type="checkbox">
+                    <label for="IN">Indiana (IN)</label>
+                    <br>
+                    <input id="MD" name="state" type="checkbox">
+                    <label for="MD">Maryland (MD)</label>
+                    <br>
+                    <input id="MT" name="state" type="checkbox">
+                    <label for="MT">Montana (MT)</label>
+                    <br>
+                    <input id="NY" name="state" type="checkbox">
+                    <label for="NY">New York (NY)</label>
+                    <br>
+                    <input id="PA" name="state" type="checkbox">
+                    <label for="PA">Pennsylvania (PA)</label>
+                    <br>
+                    <input id="UT" name="state" type="checkbox">
+                    <label for="UT">Utah (UT)</label>
+                    <br>
+                    <input id="WY" name="state" type="checkbox">
+                    <label for="WY">Wyoming (WY)</label>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <input id="AR" name="state" type="checkbox">
+                    <label for="AR">Arkansas (AR)</label>
+                    <br>
+                    <input id="FL" name="state" type="checkbox">
+                    <label for="FL">Florida (FL)</label>
+                    <br>
+                    <input id="IA" name="state" type="checkbox">
+                    <label for="IA">Iowa (IA)</label>
+                    <br>
+                    <input id="MA" name="state" type="checkbox">
+                    <label for="MA">Massachusetts (MA)</label>
+                    <br>
+                    <input id="NE" name="state" type="checkbox">
+                    <label for="NE">Nebraska (NE)</label>
+                    <br>
+                    <input id="NC" name="state" type="checkbox">
+                    <label for="NC">North Carolina (NC)</label>
+                    <br>
+                    <input id="RI" name="state" type="checkbox">
+                    <label for="RI">Rhode Island (RI)</label>
+                    <br>
+                    <input id="VT" name="state" type="checkbox">
+                    <label for="VT">Vermont (VT)</label>
+                    <br>
+                    <input id="ALL" name="ALL" type="checkbox">
+                    <label for="ALL">Select All</label>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <input id="CA" name="state" type="checkbox">
+                    <label for="CA">California (CA)</label>
+                    <br>
+                    <input id="GA" name="state" type="checkbox">
+                    <label for="GA">Georgia (GA)</label>
+                    <br>
+                    <input id="KS" name="state" type="checkbox">
+                    <label for="KS">Kansas (KS)</label>
+                    <br>
+                    <input id="MI" name="state" type="checkbox">
+                    <label for="MI">Michigan (MI)</label>
+                    <br>
+                    <input id="NV" name="state" type="checkbox">
+                    <label for="NV">Nevada (NV)</label>
+                    <br>
+                    <input id="ND" name="state" type="checkbox">
+                    <label for="ND">North Dakota (ND)</label>
+                    <br>
+                    <input id="SC" name="state" type="checkbox">
+                    <label for="SC">South Carolina (SC)</label>
+                    <br>
+                    <input id="VA" name="state" type="checkbox">
+                    <label for="VA">Virginia (VA)</label>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <input id="CO" name="state" type="checkbox">
+                    <label for="CO">Colorado (CO)</label>
+                    <br>
+                    <input id="HI" name="state" type="checkbox">
+                    <label for="HI">Hawaii (HI)</label>
+                    <br>
+                    <input id="KY" name="state" type="checkbox">
+                    <label for="KY">Kentucky (KY)</label>
+                    <br>
+                    <input id="MN" name="state" type="checkbox">
+                    <label for="MN">Minnesota (MN)</label>
+                    <br>
+                    <input id="NH" name="state" type="checkbox">
+                    <label for="NH">New Hampshire (NH)</label>
+                    <br>
+                    <input id="OH" name="state" type="checkbox">
+                    <label for="OH">Ohio (OH)</label>
+                    <br>
+                    <input id="SD" name="state" type="checkbox">
+                    <label for="SD">South Dakota (SD)</label>
+                    <br>
+                    <input id="WA" name="state" type="checkbox">
+                    <label for="WA">Washington (WA)</label>
+                    <br>
+                </div>
+            </div>
+            <div class="button-chunk">
+                <button class="button button-default button-user" type="button" onclick="gdp_table()">
+                    Show GDP Table
+                </button>&nbsp
+            </div>
+        </div>
+        <div><br></div>
+        <div class="table-chunk">
+            <table id="data-table" class="display cell-border compact">
+                <thead>
+                    <tr class="table-head">
+                        <th style="text-align: center">Name</th>
+                        <th style="text-align: center">1997</th>
+                        <th style="text-align: center">1998</th>
+                        <th style="text-align: center">1999</th>
+                        <th style="text-align: center">2000</th>
+                        <th style="text-align: center">2001</th>
+                        <th style="text-align: center">2002</th>
+                        <th style="text-align: center">2003</th>
+                        <th style="text-align: center">2004</th>
+                        <th style="text-align: center">2005</th>
+                        <th style="text-align: center">2006</th>
+                        <th style="text-align: center">2007</th>
+                        <th style="text-align: center">2008</th>
+                        <th style="text-align: center">2009</th>
+                        <th style="text-align: center">2010</th>
+                        <th style="text-align: center">2011</th>
+                        <th style="text-align: center">2012</th>
+                        <th style="text-align: center">2013</th>
+                        <th style="text-align: center">2014</th>
+                        <th style="text-align: center">2015</th>
+                        <th style="text-align: center">2016</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <div class="row foot-chunk">
+        <div class="foot">
+            <p></p>
+            <p>SI 507 Final Project&nbsp&nbsp一&nbsp&nbspMade by Tongyan Xu&nbsp&nbsp</p>
+        </div>
+    </div>
+</body>
+<script>
+    var table_obj = $("#data-table").DataTable();
+
+    function openShutManager(oSourceObj, oTargetObj, shutAble, oOpenTip, oShutTip){
+        var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+        var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+        var openTip = oOpenTip || "";
+        var shutTip = oShutTip || "";
+        if(targetObj.style.display != "none"){
+           if(shutAble) return;
+           targetObj.style.display = "none";
+           if(openTip && shutTip){
+            sourceObj.innerHTML = shutTip;
+           }
+        } else {
+           targetObj.style.display = "block";
+           if(openTip && shutTip){
+            sourceObj.innerHTML = openTip;
+           }
+        }
+    };
+
+    $("#ALL").click(function(){
+        var status = $(this).prop("checked");
+        var other = $("input[name='state']").prop("checked", status);  //让class名为qx的选项的选中状态和全选按钮的选中状态一致。
+    });
+
+    $.fn.dataTable.ext.type.order["ranking-pre"] = function (x) {
+        if (x == "231 - 300"){
+            return 231;
+        }
+        else if (x == "Unranked"){
+            return 232;
+        }
+        else {
+            return parseInt(x);
+        };
+    };
+
+    $.fn.dataTable.ext.type.order["blank-asc"] = function (x, y) {
+        if (x == null){
+            if (y == null){
+                return 0;
+            }
+            else {
+                return 1;
+            };
+        }
+        else if (y == null){
+            return -1;
+        }
+        else {
+            return x - y;
+        };
+    };
+
+    $.fn.dataTable.ext.type.order["blank-desc"] = function (x, y) {
+        if (x == null){
+            if (y == null){
+                return 0;
+            }
+            else {
+                return 1;
+            };
+        }
+        else if (y == null){
+            return -1;
+        }
+        else {
+            return y - x;
+        };
+    };
+
+    function gdp_table(){
+        openShutManager("hidden-bar", "hidden-box", false,
+            "Click to hide state checkboxes", "Click to show state checkboxes");
+
+        var id_array = new Array();
+        $("input[name='state']:checked").each(function(){
+            id_array.push($(this).attr("id"));
+        });
+        var id_str = id_array.join(",");
+
+        table_obj.destroy();
+        table_obj = $("#data-table").DataTable({
+            ajax: {
+                url: "/gdp/?state=" + id_str,
+                dataSrc: ""
+            },
+            columns: [
+                {
+                    data: "Name",
+                    title: "Name",
+                    width: "200px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y1997",
+                    title: "1997",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y1998",
+                    title: "1998",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y1999",
+                    title: "1999",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2000",
+                    title: "2000",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2001",
+                    title: "2001",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2002",
+                    title: "2002",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2003",
+                    title: "2003",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2004",
+                    title: "2004",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2005",
+                    title: "2005",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2006",
+                    title: "2006",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2007",
+                    title: "2007",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2008",
+                    title: "2008",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2009",
+                    title: "2009",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2010",
+                    title: "2010",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2011",
+                    title: "2011",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2012",
+                    title: "2012",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2013",
+                    title: "2013",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2014",
+                    title: "2014",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2015",
+                    title: "2015",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                },
+                {
+                    data: "Y2016",
+                    title: "2016",
+                    width: "40px",
+                    className: "dt-head-center dt-body-center"
+                }
+            ],
+            pageLength: 20,
+            lengthMenu: [[20, 50, -1], [20, 50, "ALL"]],
+            scrollY: 380
+        });
+    };
+</script>
+</html>

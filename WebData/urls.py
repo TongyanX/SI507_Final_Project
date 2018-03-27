@@ -14,10 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from WebData import views
+from WebData import views, dataAJAX
 
 urlpatterns = [
     url(r'^index/$', views.index, name='index'),
     url(r'^table/$', views.table, name='table'),
+    url(r'^table/univ/$', views.table_univ, name='table_univ'),
+    url(r'^table/gdp/$', views.table_gdp, name='table_gdp'),
     url(r'^plot/$', views.plot, name='plot'),
+    url(r'^univ/$', dataAJAX.state_univ, name='state_univ'),
+    url(r'^gdp/$', dataAJAX.state_gdp, name='state_gdp'),
 ]

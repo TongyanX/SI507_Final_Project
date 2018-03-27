@@ -18,19 +18,43 @@
         .title-chunk {
             background-color: #1E1F26;
             color: #FFFFFF;
-            text-valign: middle
+            height: 90px
         }
         .content-chunk {
             padding-left: 15px;
-            padding-right: 15px
+            padding-right: 15px;
+            height: 586px
         }
         .foot-chunk {
-            background-color: #1E1F26
+            background-color: #1E1F26;
+            height: 50px
+        }
+        .table-chunk {
+            padding-left: 140px;
+            padding-right: 140px
+        }
+        .table-empty-row {
+            height: 30px
+        }
+        .button-user {
+            text-align: center;
+            width: 460px;
+            height: 85px;
+            background-color: #283655;
+            font-size: 30px;
+            color: #FFFFFF
+        }
+        .table-empty-col {
+            width: 80px
         }
         .foot {
             color: #FFFFFF;
             font-size: 20px;
             text-align: right
+        }
+        img {
+            height: 390px;
+            width: 450px
         }
     </style>
 </head>
@@ -38,13 +62,41 @@
     <div class="row title-chunk">
         <div class="col-md-9">
             <h1>&nbsp&nbspTable - US National University Data</h1>
-            <br>
+        </div>
+        <div class="col-md-3" align="right">
+            <br><br><br>
+            <a href="/index" style="color: #FFFFFF; font-size: 20px">Back</a>
         </div>
     </div>
-    <div>
-        <br>
-    </div>
     <div class="row content-chunk">
+        <div>
+            <br><br>
+        </div>
+        <div class="row table-chunk">
+            <table>
+                <tbody>
+                    <tr class="table-img">
+                        <td>
+                            <img src="https://www.usnews.com/static/img/best-colleges-badge.svg"/>
+                        </td>
+                        <td class="table-empty-col"></td>
+                        <td>
+                            <img src="https://cdn.howmuch.net/content/images/world-gdp-updated-f4f4.png"/>
+                        </td>
+                    </tr>
+                    <tr class="table-empty-row"></tr>
+                    <tr class="table-text">
+                        <td class="table-info">
+                            <button class="button-user" onclick="univ()"><strong>National University</strong></button>
+                        </td>
+                        <td class="table-empty-col"></td>
+                        <td class="table-info">
+                            <button class="button-user" onclick="gdp()"><strong>State GDP</strong></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="row foot-chunk">
         <div class="foot">
@@ -54,5 +106,12 @@
     </div>
 </body>
 <script>
+    function univ(){
+        window.location.href="/table/univ";
+    }
+
+    function gdp(){
+        window.location.href="/table/gdp";
+    }
 </script>
 </html>
